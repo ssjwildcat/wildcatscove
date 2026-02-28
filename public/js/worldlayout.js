@@ -28,7 +28,7 @@ function headerHTML() {
 
       <header>
       <div class="header-image">
-      <img src="/images/banner.jpg" alt="a night sky with two moons, a larger rocky one and a smaller planet one, many stars and galaxies" />
+      <img src="/img/banner.jpg" alt="a night sky with two moons, a larger rocky one and a smaller planet one, many stars and galaxies" />
       </div>
 
       <div class="header-content">
@@ -36,7 +36,8 @@ function headerHTML() {
 	    <!-- NAVIGATION -->
 	      <nav>
 	        <ul>
-	          <li><a href="world/">Home</a></li>
+            <li><a href="/index">Main Home</a></li>
+	          <li><a href="/world">Cosmotalia Home</a></li>
 	          <li><a href="/world/godsandspirits">Gods & Spirits</a></li>
 				    <li><a href="/world/map">Maps</a></li>
 	          <li><a href="/world/magic">Magic</a></li>

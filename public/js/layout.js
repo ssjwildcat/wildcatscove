@@ -58,7 +58,7 @@ function headerHTML() {
 
           <ul>
           <strong>Worldbuilding</strong>
-          <li><a href="/world/cosmotalia">Cosmotalia</a></li>
+          <li><a href="/world">Cosmotalia</a></li>
           </ul>
         </nav>
         
