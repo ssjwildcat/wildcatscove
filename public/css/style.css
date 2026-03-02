@@ -433,6 +433,16 @@ main h6 {
 /* SPECIAL */
 /* -------------------------------------------------------- */
 
+/* Chapter Columns */
+.chaprow {
+  display: flex;
+  justify-content: center;
+}
+
+.chapcolumn {
+  flex: 25%;
+}
+
 /* Changelog */
 
 .embedded-content {
