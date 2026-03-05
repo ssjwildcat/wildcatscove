@@ -49,17 +49,22 @@ function headerHTML() {
           <li><a href="/index">Home</a></li>
           </ul>
 
-          <strong>Website</strong>
+          <details>
+          <summary><strong>Website</strong></summary>
           <ul>
           <li><a href="/about/aboutme">About Me</a></li>
           <li><a href="/about/aboutthesite">About the Site</a></li>
           <li><a href="/changelog">Changelog</a></li>
           </ul>
+          </details>
 
+          <details>
+          <summary><strong>Projects</strong></summary>
           <ul>
-          <strong>Worldbuilding</strong>
+          <li><a href="/writing">Writing Hub</a></li>
           <li><a href="/world">Cosmotalia</a></li>
           </ul>
+          </details>
         </nav>
         
 
@@ -78,7 +83,8 @@ function headerHTML() {
       <img width="76px" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8cb2184f-fe95-4552-aeb0-f3a30b7ab67f/dautmmd-b5ffd710-eb92-45dd-909e-5a36a1cbd580.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi84Y2IyMTg0Zi1mZTk1LTQ1NTItYWViMC1mM2EzMGI3YWI2N2YvZGF1dG1tZC1iNWZmZDcxMC1lYjkyLTQ1ZGQtOTA5ZS01YTM2YTFjYmQ1ODAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.UyM_2JcW8xfUuugYig0DhEier3oeAWdoSCPob6YozdI">
       <img width="76px" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/62be36f0-067b-44cb-98b1-c386a08072b6/da3x6c1-62b17861-9249-46bc-adb0-c893591f48b9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi82MmJlMzZmMC0wNjdiLTQ0Y2ItOThiMS1jMzg2YTA4MDcyYjYvZGEzeDZjMS02MmIxNzg2MS05MjQ5LTQ2YmMtYWRiMC1jODkzNTkxZjQ4YjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.36IriVLLgkmAKbWAawWmCj56ygFy-u9igq5evN_oofY">
       <img width="76px" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2ee9e56d-c6ee-41e6-830d-e2954d0a5e2b/dbh0j0n-434125d9-7151-47af-a1c9-f688e405c82f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi8yZWU5ZTU2ZC1jNmVlLTQxZTYtODMwZC1lMjk1NGQwYTVlMmIvZGJoMGowbi00MzQxMjVkOS03MTUxLTQ3YWYtYTFjOS1mNjg4ZTQwNWM4MmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.YFblTarCnTHIeS5kbQRvZUx1O2-bBsra5zXk3DtKQ_4">
-    
+      <center><a href="/graphics/stamps">More Stamps</a></center>
+
       </aside>
       `;
 }
