@@ -468,6 +468,10 @@ main h6 {
     width: 75%;
     height: 75%;
     object-fit: contain; 
+    transition: transform 0.5s ease;
+}
+.home-buttons div:hover img {
+    transform: scale(1.2); 
 }
 
 /* Information Columns */
