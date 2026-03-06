@@ -544,6 +544,10 @@ main h6 {
     display: inline-block;
 }
 
+.stamps a {
+    text-decoration: none;
+}
+
 /* Guestbook Container */
 
 .guestbook iframe {
