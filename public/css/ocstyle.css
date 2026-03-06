@@ -1,0 +1,346 @@
+/* This thing is largely bashed together from SadGrl's layout template (at https://sadgrl.online/projects/layout-builder/) and https://www.w3schools.com/ and some StackOverflow threads */ 
+
+body {
+                font-family: 'IBM Plex Sans',sans-serif;
+                margin: 0;
+                background-color: #1C141D;
+                color: silver;
+            }
+
+html, body {margin: 0}
+
+            * {
+                box-sizing: border-box;
+            }
+
+            #container {
+                max-width: 1070px;
+                margin: 0 auto;
+            }
+
+            a {
+                color: #ffffff;
+                font-weight: normal;
+                text-decoration:none;
+            }
+
+            h1 a, h2 a, h3 a, h4 a, h5 a {
+                color: #ffffff;
+                text-decoration:none;
+            }
+
+            a:hover {
+                color: #75def1;
+            }
+
+
+            #header {
+                width: 100%;
+                background-repeat: no-repeat;
+                background-size: auto 100%;
+                background-position: center;
+                background-color: #4CB9AD;
+                height: 150px;
+            }
+
+            main {
+                background-color: #1C141D;
+                padding: 20px 20px 20px 80px;
+                text-align: justify;
+            }
+
+            h1, h2 {
+                text-align: left;
+                border-bottom: 1px #4CB9AD solid;
+                width: 100%;
+            }
+
+            h4 {
+                text-align: left;
+                font-size: 19px;
+                margin: 0px;
+                width: 100%;
+            }
+
+            footer {
+                background-color: #4CB9AD;
+                width: 100%;
+                height: 40px;
+                padding: 10px;
+                text-align: center;
+            }
+
+            .imagehere {
+                height: 150px;
+                width: 150px;
+                margin-left:auto;
+                margin-right:auto;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: auto 100%;
+            }
+
+            .charactermain-image {
+                height: 350px;
+                width: 300px;
+                margin-left:auto;
+                background-repeat: no-repeat;
+                background-size: auto 100%;
+                background-position: center;
+                border: 1px white solid;
+            }
+
+            .galleryimage {
+              float: left;
+              width: 170px;
+              height: 170px;
+              background-repeat: no-repeat;
+              background-size: auto 100%;
+              background-position: center;
+              margin: 10px;
+              border: 1px white solid;
+            }
+
+            h1,
+            h2,
+            h3 {
+                color: white;
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+
+            h2 {
+                font-size: 25px;
+            }
+
+            h4 {
+                font-weight: 100;
+            }
+
+
+            /* Thanks to LetoLeGaosaure on Pillowfort for pointing this out! */
+            h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
+                color: inherit;
+            } 
+            /* -------- */
+
+            .box {
+                background-color: #e7eaeb;
+                border: 1px solid #ffffff;
+                padding: 10px;
+            }
+
+            .gallery {
+                background-color: none;
+                padding: 10px;
+                overflow: hidden;
+            }
+
+            #toc {
+                float: left;
+                text-align:left;
+                width: 200px;
+                margin-right:auto;
+                margin: 0px 40px 10px 0px;
+                background-color: #cef4ff;
+                border: 1px solid #ffffff;
+            }
+
+            ol {
+                padding-left: 8%;
+                list-style-type: circle;
+                }
+
+            li {
+                padding-bottom: 3px;
+                }
+
+            .characterprofile {
+              float: right;
+              width: 300px;
+              margin-left:auto;
+              margin: 0px 0px 30px 30px;
+              background-color: #e7ebeb;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+
+
+            table {
+              border-collapse: collapse;
+              width: 300px;
+              background-color: #a3f4ff;
+              border-top: 1px solid white;
+              border-bottom: 1px solid white;
+            }
+
+            tbody {
+              margin: 3px 10px;
+            }
+
+            td, th {
+              text-align: left;
+              padding: 3px 10px;
+              border-right: 1px solid white;
+              border-left: 1px solid white;
+            }
+
+            td:nth-child(odd) {
+              font-weight: 600;
+                text-align: right;
+            }
+
+            tr:nth-child(odd) {
+              background-color: #e0e3e4;
+            }
+
+
+            /* MEDIA QUERY */
+
+            @media only screen and (max-width: 1350px) {
+              main {
+                float: left;
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                margin: 10px 0px 0px 00px;
+                padding: 0px;
+              }
+            }
+
+            @media only screen and (max-width: 1100px) {
+              table, .characterprofile {
+                float: left;
+                width: 100%;
+                margin: 10px 0px 0px 00px;
+              }
+                
+            .characterprofile {
+                float: left;
+                width: 100%;
+                margin: 0px 0px 30px 0px;
+              }
+                
+            main {
+                padding: 20px;
+            }
+                
+            .charactermain-image {
+                width: 100%;
+                margin: 0px 0px 10px 00px;
+              }
+
+            }
+
+            .sidenav {
+                height: 100%; /* Full-height: remove this if you want "auto" height */
+                width: 230px; /* Set the width of the sidebar */
+                position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+                z-index: 1; /* Stay on top */
+                top: 0; /* Stay at the top */
+                left: 0;
+                background-color: #47395C;
+                overflow-x: hidden; /* Disable horizontal scroll */
+                padding-top: 20px;
+                border-bottom: none;
+                border-right: 1px black solid;
+            }
+
+            .sidenav a {
+                padding: 7px 0px 7px 20px;
+                margin: 0px 40px 5px 30px;
+                text-decoration: none;
+                display: block;
+                border: 1px white solid;
+                background-color: #4CB9AD;
+            }
+
+            .sidenav p {
+                padding: 0px 20px;
+                text-decoration: none;
+            }
+
+            .sidenav h2 {
+                margin-top: 0px;
+                padding: 0px 40px 0px 40px;
+                text-decoration: none;
+                text-align: justify;
+                border-bottom: 0px;
+            }
+
+
+            @media screen and (max-width: 1350px) {
+            .sidenav {
+            height: 40px;
+            width: 100%; /* Set the width of the sidebar */
+            position: static;
+            z-index: 1; /* Stay on top */
+            overflow-x: scroll;
+            scrollbar-width: none;
+            top: 0; /* Stay at the top */
+            left: 0;
+            background-color: #47395C;
+            white-space: nowrap;
+            padding-top: 10px;
+            align-content: center;
+            border-bottom: 1px rgb(255, 255, 255) solid;
+            border-right: none;
+            }
+
+            .sidenav a {
+                padding: 3px 10px;
+                margin: 0px;
+                text-decoration: none;
+                display: inline;
+                border: 0px;
+                background-color: #4CB9AD;
+            }
+
+            .sidenav .imagehere {
+            display: none;
+            }
+
+            .sidenav br {
+                display: none;
+            }
+
+            .sidenav p {
+                display: none;
+            }
+
+            .sidenav h2 {
+                display: none;
+            }
+
+            .sidenav hr {
+            display: none;
+            }
+
+} 
+
+/* SPECIAL */
+/* Section Gallery */
+.section-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 5em;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.section-gallery div img {
+  transition: transform 0.5s ease;
+  object-fit: contain; }
+  
+.section-gallery div:hover img {
+  transform: scale(1.2); 
+  }
