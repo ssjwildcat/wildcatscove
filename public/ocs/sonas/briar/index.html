@@ -1,0 +1,166 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Briar</title>
+  <link rel="stylesheet" href="../../../css/ocstyle.css">
+  <meta name="description" content="">
+  <link rel="icon" href="/favicon.gif" sizes="any">
+</head>
+
+<body>
+
+<header-component></header-component>
+<header id="header" style="background-image: url('https://images.unsplash.com/photo-1471619234876-3b1dd819e1a4?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></header>
+<main>
+  <div id="container"><main>
+
+    <div class="w3-bar w3-black">
+      <button class="ocbutton" onclick="opensection('abt')">About</button>
+      <button class="ocbutton"><a href="/">Gallery</a></button>
+      <button class="ocbutton"><a href="https://unsplash.com/photos/body-of-water-under-cloudy-sky-R5TeTY0KoSY" target="_blank">Header Credit</a></button>
+    </div>
+
+    <h1>Briar</h1>
+   
+  <div id="abt" class="section">  
+  <div class="characterprofile">
+    <div class="charactermain-image" style="background-image: url('https://f2.toyhou.se/file/f2-toyhou-se/images/67899105_PA5SP0hLK6hqQSo.png')"></div>
+      <table>
+  <tr>
+    <th colspan="2"> </th>
+  </tr>
+  <tr>
+    <td>Age</td>
+    <td>appears 23</td>
+  </tr>
+  <tr>
+    <td>Birthday</td>
+    <td>January 1st (Capricorn)</td>
+  </tr>
+  <tr>
+    <td>Species</td>
+    <td>Dragon; Eastern Dragon</td>
+  </tr>
+  <tr>
+    <td>Gender</td>
+    <td>Female</td>
+  </tr>
+  <tr>
+    <td>Pronouns</td>
+    <td>she/her</td>
+  </tr>
+  <tr>
+    <td>Orientation</td>
+    <td>Acearo</td>
+  </tr>
+  <tr>
+    <td>Profile Credit</td>
+    <td><a href="https://orirising.tumblr.com/">orirising</a></td>
+  </tr>
+    <tr>
+    <th colspan="2"> </th>
+  </tr>
+</table>
+  </div>
+
+<div id="toc"></div>
+            
+<div id="contents">     
+    <p>Briar is not as human as she appears, but rather a dragon. After a lifetime of isolation with a few blessings of rain here and there, when people called for her rain she decided to live among them. When not using her powers to end droughts, she wanders, meeting new people and seeing new places. </p>
+
+    <a href="#"><h2>Personality</h2></a>
+    <p>Briar is a quiet and reserved person who mostly goes with the flow. She tries to keep in mind that if you can’t change something, you shouldn’t worry about it. Otherwise, she may grow anxious over it so she tries to use mantras such as that to manage it. She tries to not take things, including herself, too seriously. While she can be naive at times, she tries to not let people pull the wool over her eyes as she tends to try to think the best of people. </p>
+
+    <a href="#"><h2>History</h2></a>
+    <p>Briar’s a dragon who, until recently, didn’t mess with humans too much. She’d occasionally throw a storm at a place in a drought when it needed it but never put too much thought into it. When people began to beseech her for help in droughts, she began to think things over and decided she wanted to see what humans were actually like. When not helping, she’d put on the guise of a human on and wander among them, learning what they were like and becoming fond of them. While she finds them difficult to interact with, she likes them all the same. She tends to not stay in the same place and instead wanders, liking to see new places. </p>
+
+    <a href="#"><h2>Skills</h2></a>
+    <p>As an Eastern dragon, she has weather manipulating abilities. While she could cause severe maelstroms, she sticks to causing only thunderstorms at most, not wanting to cause collateral damage.</p>
+    <p>She has shape-shifting abilities but needs to keep certain characteristics from her full draconic forms, such as her horns, eye color, claws, etc. She usually switches between her full dragon form, an anthro form and her human form. </p>           
+    <a href="#"><h2>Reference</h2></a>
+    <div class="referencepage">
+      <div><a href="https://f2.toyhou.se/file/f2-toyhou-se/images/64444667_d4pTiYzvIPqca1M.png?1718523291" target="_blank"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/64444667_d4pTiYzvIPqca1M.png?1718523291"></a></div>
+      <p><a href="/ocs/sonas/briar/gallery#references">More References</a></p>
+    </div>
+    <br>
+            </div>
+                </main>    
+  </div>
+  </div>
+  </div>
+
+  <!-- Side navigation -->
+<div class="sidenav">
+  <a href="/index.html">Index</a>
+  <a href="/ocs">OC Listing</a>
+  <a href="/ocs/sonas">Back to Sonas</a>
+</div>
+
+</main>
+</body>
+</html>
+
+        <!-- =============================================== -->
+        <!-- SCRIPTS -->
+        <!-- =============================================== -->
+
+<!-- Don't touch this, it makes the table of contents work, as per: https://stackoverflow.com/questions/187619/is-there-a-javascript-solution-to-generating-a-table-of-contents-for-a-page </-->
+<script>
+window.onload = function () {
+    var toc = "";
+    var level = 0;
+
+    document.getElementById("contents").innerHTML =
+        document.getElementById("contents").innerHTML.replace(
+            /<h([\d])>([\s\S]*?)<\/h\1>/gi,
+            function (str, openLevel, innerHtml) {
+                openLevel = parseInt(openLevel);
+
+                if (openLevel > level) {
+                    toc += (new Array(openLevel - level + 1)).join("<ol>");
+                } else if (openLevel < level) {
+                    toc += (new Array(level - openLevel + 1)).join("</ol>");
+                }
+
+                level = openLevel;
+
+                var tempDiv = document.createElement("div");
+                tempDiv.innerHTML = innerHtml;
+                var plainText = tempDiv.textContent || tempDiv.innerText || "";
+
+                var anchor = plainText.trim()
+                    .replace(/\s+/g, "_")
+                    .replace(/[^\w\-]/g, "");
+
+                toc += "<li><a href=\"#" + anchor + "\">" + plainText + "</a></li>";
+
+                return "<h" + openLevel + " id=\"" + anchor + "\">" + innerHtml + "</h" + openLevel + ">";
+            }
+        );
+
+    if (level) {
+        toc += (new Array(level + 1)).join("</ol>");
+    }
+
+    document.getElementById("toc").innerHTML += toc;
+};
+</script>
+
+<script>
+  function opensection(sectionName) {
+  var i;
+  var x = document.getElementsByClassName("section");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(sectionName).style.display = "block";
+}
+</script>
+
+        <!-- =============================================== -->
+        <!-- STYLE -->
+        <!-- =============================================== -->
+         

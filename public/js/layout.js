@@ -65,6 +65,10 @@ function headerHTML() {
           <li><a href="/world">Cosmotalia</a></li>
           </ul>
           </details>
+
+          <ul>
+          <li><a href="/ocs">Characters</a></li>
+          </ul>
         </nav>
         
 
