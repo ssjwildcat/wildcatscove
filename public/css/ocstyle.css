@@ -400,14 +400,17 @@ html, body {margin: 0}
 /* OC GALLERY */
 
 #ocgallery {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 350px;
+    overflow-y: auto;
 }
 
 #ocgallery .item {
     text-align: center;
+    font-size: 14px;
 }
 
-#ocgallery img {
-    width: 80%;
+#ocgallery .item img {
+    width: 50%;
 }

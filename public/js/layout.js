@@ -53,7 +53,8 @@ function headerHTML() {
           <summary><strong>Website</strong></summary>
           <ul>
           <li><a href="/about/aboutme">About Me</a></li>
-          <li><a href="/about/aboutthesite">About the Site</a></li>
+          <li><a href="/about/why">Site Manifesto</a></li>
+          <li><a href="/about/credits">Credits</a></li>
           <li><a href="/changelog">Changelog</a></li>
           </ul>
           </details>
