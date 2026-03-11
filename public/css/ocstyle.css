@@ -260,6 +260,12 @@ html, body {margin: 0}
                 border: 1px white solid;
                 background-color: #4CB9AD;
                 border-radius: 15%;
+                transition-duration: 0.5s;
+            }
+
+            .sidenav a:hover {
+                background-color: #b4fff6;
+                color: white;
             }
 
             .sidenav p {
@@ -348,10 +354,18 @@ html, body {margin: 0}
 .ocbutton {
     color: black;
     font-size: 15px;
+    transition-duration: 0.5s;
+    background: #47395C;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
 .ocbutton a {
     color: black;
+}
+
+.ocbutton:hover {
+    background-color: #4CB9AD;
 }
 
 /* REFERENCE */
