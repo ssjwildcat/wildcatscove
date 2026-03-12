@@ -100,6 +100,12 @@ function headerHTML() {
 
       <img src="/graphics/blinkies/iheartdragons.gif">
       <center><a href="/graphics/blinkies">More Blinkies</a></center>
+      <hr>
+
+      <center><h4 style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
+          -1px 1px 0 #000, 1px 1px 0 #000; color: cyan;">Link my site!</h4>
+      <img src="/img/sitebutton.gif">
+      <textarea><a href="https://wwww.wildcatscove.neocities.com"><img src="https://wwww.wildcatscove.neocities.com/img/sitebutton.gif"></textarea></center>
       </aside>
       `;
 }
