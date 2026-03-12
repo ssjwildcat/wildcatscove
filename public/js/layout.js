@@ -82,6 +82,14 @@ function headerHTML() {
 
       <aside class="right-sidebar">
 
+      <iframe src="https://petracoding.github.io/neocities/widgets/statuscafe?center=1&marquee=0&font-family=Courier New&font-size=15px&color=#110321&linkColor=#3aff61&username=saturnianwildcat&hideUsername=0" frameborder="0" title="Status.Cafe Status"></iframe>
+
+      <center><p style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
+          -1px 1px 0 #000, 1px 1px 0 #000; color: cyan;">Link my site!</p>
+      <img src="/img/sitebutton.gif">
+      <textarea><a href="https://wwww.wildcatscove.neocities.com"><img src="https://wwww.wildcatscove.neocities.com/img/sitebutton.gif"></textarea></center>
+      <hr>
+      
       <img width="76px" src="/graphics/buttons/asexuals_now.gif">
       <img width="76px" src="/graphics/buttons/hatems.gif">
       <img width="76px" src="/graphics/buttons/internetprivacy.gif">
@@ -101,11 +109,6 @@ function headerHTML() {
       <img src="/graphics/blinkies/iheartdragons.gif">
       <center><a href="/graphics/blinkies">More Blinkies</a></center>
       <hr>
-
-      <center><h4 style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
-          -1px 1px 0 #000, 1px 1px 0 #000; color: cyan;">Link my site!</h4>
-      <img src="/img/sitebutton.gif">
-      <textarea><a href="https://wwww.wildcatscove.neocities.com"><img src="https://wwww.wildcatscove.neocities.com/img/sitebutton.gif"></textarea></center>
       </aside>
       `;
 }
