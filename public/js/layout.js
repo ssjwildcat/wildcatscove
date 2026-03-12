@@ -71,7 +71,6 @@ function headerHTML() {
           <li><a href="/ocs">Characters</a></li>
           </ul>
         </nav>
-        
 
       </aside>
 	
@@ -110,6 +109,7 @@ function headerHTML() {
       <img src="/graphics/blinkies/iheartdragons.gif">
       <center><a href="/graphics/blinkies">More Blinkies</a></center>
       <hr>
+
       </aside>
       `;
 }
