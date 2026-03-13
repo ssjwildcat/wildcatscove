@@ -24,6 +24,10 @@ html, body {margin: 0}
                 text-decoration:none;
             }
 
+            b {
+                color: #4CB9AD;
+            }
+
             h1 a, h2 a, h3 a, h4 a, h5 a {
                 color: #ffffff;
                 text-decoration:none;
@@ -454,6 +458,7 @@ html, body {margin: 0}
     margin-bottom: 10px;
     height: 100%;
     color:white;
+    border: white dashed;
 }
 .relationbox img {
     float: left;
