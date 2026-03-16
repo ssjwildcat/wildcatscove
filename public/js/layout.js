@@ -106,8 +106,9 @@ function headerHTML() {
       <center><a href="/graphics/stamps">More Stamps</a></center>
       <hr>
 
-      <img src="/graphics/blinkies/iheartdragons.gif">
-      <center><a href="/graphics/blinkies">More Blinkies</a></center>
+      <center><img src="/graphics/blinkies/iheartdragons.gif">
+      <img width="145px" src="/graphics/blinkies/firefox.gif">
+      <a href="/graphics/blinkies">More Blinkies</a></center>
       <hr>
 
       </aside>

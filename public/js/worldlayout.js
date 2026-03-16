@@ -42,7 +42,8 @@ function headerHTML() {
 				    <li><a href="/world/map">Maps</a></li>
 	          <li><a href="/world/magic">Magic</a></li>
 				    <li><a href="/world/critters">Creatures, Beasts & Monsters</a></li>
-	          </ul>
+	          <li><a href="/world/groups">Groups</a></li>
+            </ul>
 	      </nav>
         	
       </div>
