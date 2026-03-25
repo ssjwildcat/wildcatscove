@@ -68,7 +68,8 @@ function headerHTML() {
           <li><a href="/graphics/buttons">Buttons</a></li>
           <li><a href="/graphics/stamps">Stamps</a></li>
           </ul>
-          </ul></details>
+          </ul>
+          </details>
 
           <details>
           <summary><strong>Projects</strong></summary>
