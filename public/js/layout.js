@@ -60,6 +60,17 @@ function headerHTML() {
           </details>
 
           <details>
+          <summary><strong>Graphics</strong></summary>
+          <ul>
+          <li><a href="/graphics">Graphics</a></li>
+          <ul>
+          <li><a href="/graphics/blinkies">Blinkies</a></li>
+          <li><a href="/graphics/buttons">Buttons</a></li>
+          <li><a href="/graphics/stamps">Stamps</a></li>
+          </ul>
+          </ul></details>
+
+          <details>
           <summary><strong>Projects</strong></summary>
           <ul>
           <li><a href="/writing">Writing Hub</a></li>
