@@ -56,6 +56,7 @@ function headerHTML() {
           <li><a href="/about/why">Site Manifesto</a></li>
           <li><a href="/about/credits">Credits</a></li>
           <li><a href="/changelog">Changelog</a></li>
+          <li><a href="/sitemap">Sitemap</a></li>
           </ul>
           </details>
 
