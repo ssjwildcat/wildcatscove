@@ -1,0 +1,164 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raspberry</title>
+  <link rel="stylesheet" href="../../../css/ocstyle.css">
+  <meta name="description" content="">
+  <link rel="icon" href="/favicon.gif" sizes="any">
+</head>
+
+<body>
+
+<header-component></header-component>
+<header id="header" style="background-image: url('https://images.unsplash.com/photo-1462823985959-022de68638a2?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></header>
+<main>
+    <div id="container">
+
+    <div class="w3-bar w3-black">
+      <button class="ocbutton" onclick="opensection('abt')">About</button>
+      <button class="ocbutton"><a href="/ocs/sonas/raspberry/gallery">Gallery</a></button>
+      <button class="ocbutton"><a href="https://unsplash.com/photos/waves-crashing-through-shore-KCJKsJPe9pQ">Header Credit</a></button>
+    </div>
+
+    <h1>Raspberry</h1>
+
+    <div id="abt" class="section">
+
+        <div class="characterprofile">
+            <div class="charactermain-image" style="background-image: url('https://f2.toyhou.se/file/f2-toyhou-se/images/102918931_iXgzqJfqzWObhgX.png')"></div>
+            <table>
+                <tr>
+                    <th colspan="2"></th>
+                </tr>
+                <tr>
+                    <td>Nicknames</td>
+                    <td>Berry</td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>Birthday</td>
+                    <td>January 1st (Capricorn)</td>
+                </tr>
+                <tr>
+                    <td>Species</td>
+                    <td>Alligator</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>Female</td>
+                </tr>
+                <tr>
+                    <td>Pronouns</td>
+                    <td>she/her</td>
+                </tr>
+                <tr>
+                    <td>Orientation</td>
+                    <td>Acearo</td>
+                </tr>
+                <tr>
+                    <td>Art Credit</td>
+                    <td><a href="https://www.tumblr.com/dr-katastrof">dr-katastrof</a></td>
+                </tr>
+                <tr>
+                    <th colspan="2"> </th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="toc"></div>
+        
+        <div id="contents">     
+          <p>Raspberry, happily, doesn’t want for much—but not that she has a lot. She’s just happy for what she has, a life near the beach and a modest job at the gift shop for said beach. </p>
+
+        <a href="#"><h2>Personality</h2></a>
+          <p>Raspberry is chill, like, very chill. Things used to get her down but with time, she’s learned to just live with it. She’s pretty quiet and slow to interact with others, but when she does you’ll find someone who’s very supportive and willing to listen. She has a tendency to “play up” her reactions to get a laugh out of others but tries to not go overboard so she’s not misunderstood. </p>
+
+        <a href="#"><h2>History</h2></a>
+          <p>Raspberry has a pretty simple and chill life, living in Florida. While she can attest to how insane it can be there, she likes it all the same. She lives her days out on the beach, getting up to all sorts of shenanigans in the gift shop she works at. </p>
+
+        <a href="#"><h2>Skills</h2></a>
+        <p>She likes to paint. Her favorite thing to paint is sunsets. </p>  
+
+        <a href="#"><h2>Reference</h2></a>
+        <div class="referencepage">
+            <div><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/65082282_iLEJTz2aXxBFn8H.png"></div>
+        </div>
+        <br>
+        </div>
+    </div>
+
+    </div>
+</main>
+
+  <!-- Side navigation -->
+    <div class="sidenav">
+        <a href="/index.html">Index</a>
+        <a href="/ocs">OC Listing</a>
+        <a href="/ocs/sonas">Back to Sonas</a>
+    </div>
+
+</body>
+</html>
+
+        <!-- =============================================== -->
+        <!-- SCRIPTS -->
+        <!-- =============================================== -->
+
+<!-- Don't touch this, it makes the table of contents work, as per: https://stackoverflow.com/questions/187619/is-there-a-javascript-solution-to-generating-a-table-of-contents-for-a-page </-->
+<script>
+window.onload = function () {
+    var toc = "";
+    var level = 0;
+
+    document.getElementById("contents").innerHTML =
+        document.getElementById("contents").innerHTML.replace(
+            /<h([\d])>([\s\S]*?)<\/h\1>/gi,
+            function (str, openLevel, innerHtml) {
+                openLevel = parseInt(openLevel);
+
+                if (openLevel > level) {
+                    toc += (new Array(openLevel - level + 1)).join("<ol>");
+                } else if (openLevel < level) {
+                    toc += (new Array(level - openLevel + 1)).join("</ol>");
+                }
+
+                level = openLevel;
+
+                var tempDiv = document.createElement("div");
+                tempDiv.innerHTML = innerHtml;
+                var plainText = tempDiv.textContent || tempDiv.innerText || "";
+
+                var anchor = plainText.trim()
+                    .replace(/\s+/g, "_")
+                    .replace(/[^\w\-]/g, "");
+
+                toc += "<li><a href=\"#" + anchor + "\">" + plainText + "</a></li>";
+
+                return "<h" + openLevel + " id=\"" + anchor + "\">" + innerHtml + "</h" + openLevel + ">";
+            }
+        );
+
+    if (level) {
+        toc += (new Array(level + 1)).join("</ol>");
+    }
+
+    document.getElementById("toc").innerHTML += toc;
+};
+</script>
+
+<script>
+  function opensection(sectionName) {
+  var i;
+  var x = document.getElementsByClassName("section");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(sectionName).style.display = "block";
+}
+</script>
