@@ -342,6 +342,7 @@ main h6 {
     font-family: var(--heading-font);
     margin-bottom: 0;
     line-height: 1.5;
+    border-bottom: 1px #ed64f5 solid;
 }
 
 main h1:first-child,
@@ -509,6 +510,47 @@ main h6 {
 .sentinel-gallery div:hover img {
   transform: scale(1.35); 
   }
+
+  /* OC GALLERY */
+
+#ocgallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 250px;
+    overflow-y: auto;
+}
+
+#ocgallery .item {
+    text-align: center;
+    font-size: 14px;
+}
+
+#ocgallery .item img {
+    width: 50%;
+}
+
+/* OC Button */
+.ocbutton {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    transition-duration: 0.5s;
+    background: #1c073b;
+    border-radius: 10px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.ocbutton a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.ocbutton:hover {
+    background-color: #ff03c0;
+    color: white;
+}
+
+
 /* -------------------------------------------------------- */
 /* ACCESSIBILITY */
 /* -------------------------------------------------------- */
