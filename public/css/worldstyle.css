@@ -342,7 +342,6 @@ main h6 {
     font-family: var(--heading-font);
     margin-bottom: 0;
     line-height: 1.5;
-    border-bottom: 1px #ed64f5 solid;
 }
 
 main h1:first-child,
@@ -356,14 +355,18 @@ main h6:first-child {
 
 main h1 {
     font-size: 1.5em;
+    border-bottom: 1px #ed64f5 solid;
 }
 
 main h2 {
     font-size: 1.4em;
+    border-bottom: 1px #ed64f5 solid;
+
 }
 
 main h3 {
     font-size: 1.3em;
+    border-bottom: 1px #ed64f5 solid;
 }
 
 main h4 {
@@ -550,6 +553,7 @@ main h6 {
     color: white;
 }
 
+/* Header Styles */
 
 /* -------------------------------------------------------- */
 /* ACCESSIBILITY */
