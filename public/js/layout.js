@@ -100,7 +100,7 @@ function headerHTML() {
       <center><p style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
           -1px 1px 0 #000, 1px 1px 0 #000; color: cyan;">Link my site!</p>
       <img src="/img/sitebutton.gif">
-      <textarea><a href="https://wwww.wildcatscove.neocities.com"><img src="https://wwww.wildcatscove.neocities.com/img/sitebutton.gif"></textarea></center>
+      <textarea><a href="https://wwww.wildcatscove.neocities.com"><img src="https://www.wildcatscove.neocities.com/img/sitebutton.gif"></textarea></center>
       <hr>
       
       <img width="76px" src="/graphics/buttons/asexuals_now.gif">
