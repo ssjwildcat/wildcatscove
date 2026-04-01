@@ -643,7 +643,7 @@ main h6 {
 
 /* Text */
 .frutiger-aero-button a {
-    color: darkcyan;
+    color: black;
     text-decoration: none;
 }
 
@@ -682,7 +682,7 @@ main h6 {
 .frutiger-aero-button.small {
   padding: 0.5em 1.5em;
   font-size: 0.750rem;
-  margin-top: 0.5em;
+  margin-top: 1em;
 }
 
 .frutiger-aero-button.medium {
@@ -735,6 +735,10 @@ main h6 {
     .layout {
         width: 100%;
         grid-template: "header" auto "leftSidebar" auto "main" auto "footer" auto / 1fr;
+    }
+
+    .left-sidebar {
+        display: none;
     }
 
     .right-sidebar {
