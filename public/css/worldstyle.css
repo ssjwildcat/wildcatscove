@@ -534,6 +534,7 @@ main h6 {
 
 /* OC Button */
 .ocbutton {
+    display: block;
     color: rgb(255, 255, 255);
     font-size: 15px;
     transition-duration: 0.5s;

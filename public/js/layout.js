@@ -89,7 +89,7 @@ function headerHTML() {
 
       <center><img src="/graphics/blinkies/iheartdragons.gif">
       <img width="145px" src="/graphics/blinkies/firefox.gif">
-      <img src="/graphics/blinkies/honorstudent.gif">
+      <img src="/graphics/blinkies/cathonor.gif">
       <img src="/graphics/blinkies/internetloser.gif">
       <a href="/graphics/blinkies">More Blinkies</a></center>
       <hr>
