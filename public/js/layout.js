@@ -30,7 +30,18 @@ function headerHTML() {
 
         <div class="header-content">
 	        <div class="header-title"><img src="https://i.postimg.cc/Wb1Fdh7z/headerdivider.png alt="A divider composed of pixel art of hibiscus flowers, dolphins and surfboards"> Wildcat's Cove <img src="https://i.postimg.cc/Wb1Fdh7z/headerdivider.png alt="A divider composed of pixel art of hibiscus flowers, dolphins and surfboards""></div>
-        </div>
+        
+          <div class="header-title">
+          <button class="frutiger-aero-button small"><a href="/index">Home</a></button>
+          <button class="frutiger-aero-button small"><a href="/about/aboutme">About Me</a></button>
+          <button class="frutiger-aero-button small"><a href="/graphics">Graphics</a></button>
+          <button class="frutiger-aero-button small"><a href="/writing">Writing</a></button>
+          <button class="frutiger-aero-button small"><a href="/world">Cosmotalia</a></button>
+          <button class="frutiger-aero-button small"><a href="/ocs">Characters</a></button>
+          </div>
+
+          </div>
+        
       </header>
 
 	  
@@ -41,49 +52,14 @@ function headerHTML() {
 
       <aside class="left-sidebar">
 	  
-        
-        <!-- NAVIGATION -->
-        <nav>
-          <div class="sidebar-title">Navigation</div>
-          <ul>
-          <li><a href="/index">Home</a></li>
-          </ul>
+      <iframe src="https://petracoding.github.io/neocities/widgets/statuscafe?center=1&marquee=0&font-family=Courier New&font-size=15px&color=#110321&linkColor=#3aff61&width=60px&height=100px&username=saturnianwildcat&hideUsername=0" frameborder="0" title="Status.Cafe Status"></iframe>
+      <hr>
 
-          <details>
-          <summary><strong>Website</strong></summary>
-          <ul>
-          <li><a href="/about/aboutme">About Me</a></li>
-          <li><a href="/about/why">Site Manifesto</a></li>
-          <li><a href="/about/credits">Credits</a></li>
-          <li><a href="/changelog">Changelog</a></li>
-          <li><a href="/sitemap">Sitemap</a></li>
-          </ul>
-          </details>
-
-          <details>
-          <summary><strong>Graphics</strong></summary>
-          <ul>
-          <li><a href="/graphics">Graphics</a></li>
-          <ul>
-          <li><a href="/graphics/blinkies">Blinkies</a></li>
-          <li><a href="/graphics/buttons">Buttons</a></li>
-          <li><a href="/graphics/stamps">Stamps</a></li>
-          </ul>
-          </ul>
-          </details>
-
-          <details>
-          <summary><strong>Projects</strong></summary>
-          <ul>
-          <li><a href="/writing">Writing Hub</a></li>
-          <li><a href="/world">Cosmotalia</a></li>
-          </ul>
-          </details>
-
-          <ul>
-          <li><a href="/ocs">Characters</a></li>
-          </ul>
-        </nav>
+      <center><p style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
+          -1px 1px 0 #000, 1px 1px 0 #000; color: cyan;">Link my site!</p>
+      <img src="/img/sitebutton.gif">
+      <textarea><a href="https://wwww.wildcatscove.neocities.com"><img src="https://www.wildcatscove.neocities.com/img/sitebutton.gif"></textarea></center>
+      <hr>
 
       </aside>
 	
@@ -94,14 +70,6 @@ function headerHTML() {
 
       <aside class="right-sidebar">
 
-      <iframe src="https://petracoding.github.io/neocities/widgets/statuscafe?center=1&marquee=0&font-family=Courier New&font-size=15px&color=#110321&linkColor=#3aff61&width=60px&height=100px&username=saturnianwildcat&hideUsername=0" frameborder="0" title="Status.Cafe Status"></iframe>
-      <hr>
-
-      <center><p style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
-          -1px 1px 0 #000, 1px 1px 0 #000; color: cyan;">Link my site!</p>
-      <img src="/img/sitebutton.gif">
-      <textarea><a href="https://wwww.wildcatscove.neocities.com"><img src="https://www.wildcatscove.neocities.com/img/sitebutton.gif"></textarea></center>
-      <hr>
       
       <img width="76px" src="/graphics/buttons/asexuals_now.gif">
       <img width="76px" src="/graphics/buttons/hatems.gif">
@@ -121,6 +89,8 @@ function headerHTML() {
 
       <center><img src="/graphics/blinkies/iheartdragons.gif">
       <img width="145px" src="/graphics/blinkies/firefox.gif">
+      <img src="/graphics/blinkies/honorstudent.gif">
+      <img src="/graphics/blinkies/internetloser.gif">
       <a href="/graphics/blinkies">More Blinkies</a></center>
       <hr>
 
