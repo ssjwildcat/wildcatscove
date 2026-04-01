@@ -340,7 +340,7 @@ main h4,
 main h5,
 main h6 {
     font-family: var(--heading-font);
-    margin-bottom: 0;
+    margin-bottom: 5px;
     line-height: 1.5;
 }
 
