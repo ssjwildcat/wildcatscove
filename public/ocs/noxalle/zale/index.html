@@ -1,0 +1,145 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zale</title>
+  <link rel="stylesheet" href="../../../css/ocstyle.css">
+  <meta name="description" content="">
+  <link rel="icon" href="/favicon.gif" sizes="any">
+</head>
+
+<body>
+
+<header-component></header-component>
+<header id="header" style="background-image: url('https://images.unsplash.com/photo-1562008928-6185cc645f76?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></header>
+<main>
+    <div id="container">
+
+    <div class="w3-bar w3-black">
+      <button class="ocbutton" onclick="opensection('abt')">About</button>
+      <button class="ocbutton"><a href="/ocs/noxalle/zale/gallery">Gallery</a></button>
+      <button class="ocbutton"><a href="https://unsplash.com/photos/sea-waves-during-daytime-C2GKfb69cM0">Header Credit</a></button>
+    </div>
+
+    <h1>Zale</h1>
+
+    <div id="abt" class="section">
+
+        <div class="characterprofile">
+            <div class="charactermain-image" style="background-image: url('https://f2.toyhou.se/file/f2-toyhou-se/images/84992364_5YkMVgWCa32M9Il.png')"></div>
+            <table>
+                <tr>
+                    <th colspan="2"></th>
+                </tr>
+                <tr>
+                    <td>Species</td>
+                    <td>Eastern Dragon</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>Pronouns</td>
+                    <td>he/him</td>
+                </tr>
+                <tr>
+                    <td>Profile Credit</td>
+                    <td><a href="https://toyhou.se/ToffeeIllustrates">ToffeeIllustrates/a></td>
+                </tr>
+                <tr>
+                    <th colspan="2"> </th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="toc"></div>
+        
+        <div id="contents">     
+        <a href="#"><h2>Personality</h2></a>
+          <p>Zale is overly optimistic and hyper, either coming off as endearing or flat out annoying. He likes to mess with people by acting all stony and serious only to let the facade drop to surprise them. He is highly compassionate and likes to help people, eager to be a good friend.</p>
+
+        <a href="#"><h2>History</h2></a>
+          <p>Zale didn’t always appear the way he does today. Human encroachment drove him off his home turf and, oddly enough, onto human settlement to escape. What he found was an abandoned mall so he settled and made it his lair. However, he found the deeper areas of the mall didn’t “seem right”, especially as he explored deeper. He found here the Veil was thinner and soon enough, it led to a portal to another realm. This realm was Vaporspace, a sister realm to Cyberspace, except where Cyberspace was dark and dreary, Vaporspace was bright and colorful, a parody of human society and capitalism. Here, he changed appearance then soon learned it was a sort of offshoot of Cyberspace, populated by former inhabitants and Fae who took a liking to the place. He agreed to act as guardian to the place and the entrance from his lair.</p>
+
+        <a href="#"><h2>Skills</h2></a>
+        <p>Zale has control over water and is also amphibious, able to breathe under water. Thanks to his exposure to Vaporspace, he can also travel between Earth and it at will.</p>  
+
+        <a href="#"><h2>Reference</h2></a>
+        <div class="referencepage">
+            <div><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/12836068_nfojVlCgsap24OP.png?1608271395"></div>
+        </div>
+        <br>
+        </div>
+    </div>
+    </div>
+</main>
+
+  <!-- Side navigation -->
+    <div class="sidenav">
+        <a href="/index.html">Home</a>
+        <a href="/ocs">All OCs</a>
+        <a href="/ocs/noxalle">Noxalle</a>
+    </div>
+
+</body>
+</html>
+
+        <!-- =============================================== -->
+        <!-- SCRIPTS -->
+        <!-- =============================================== -->
+
+<!-- Don't touch this, it makes the table of contents work, as per: https://stackoverflow.com/questions/187619/is-there-a-javascript-solution-to-generating-a-table-of-contents-for-a-page </-->
+<script>
+window.onload = function () {
+    var toc = "";
+    var level = 0;
+
+    document.getElementById("contents").innerHTML =
+        document.getElementById("contents").innerHTML.replace(
+            /<h([\d])>([\s\S]*?)<\/h\1>/gi,
+            function (str, openLevel, innerHtml) {
+                openLevel = parseInt(openLevel);
+
+                if (openLevel > level) {
+                    toc += (new Array(openLevel - level + 1)).join("<ol>");
+                } else if (openLevel < level) {
+                    toc += (new Array(level - openLevel + 1)).join("</ol>");
+                }
+
+                level = openLevel;
+
+                var tempDiv = document.createElement("div");
+                tempDiv.innerHTML = innerHtml;
+                var plainText = tempDiv.textContent || tempDiv.innerText || "";
+
+                var anchor = plainText.trim()
+                    .replace(/\s+/g, "_")
+                    .replace(/[^\w\-]/g, "");
+
+                toc += "<li><a href=\"#" + anchor + "\">" + plainText + "</a></li>";
+
+                return "<h" + openLevel + " id=\"" + anchor + "\">" + innerHtml + "</h" + openLevel + ">";
+            }
+        );
+
+    if (level) {
+        toc += (new Array(level + 1)).join("</ol>");
+    }
+
+    document.getElementById("toc").innerHTML += toc;
+};
+</script>
+
+<script>
+  function opensection(sectionName) {
+  var i;
+  var x = document.getElementsByClassName("section");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(sectionName).style.display = "block";
+}
+</script>

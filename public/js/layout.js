@@ -29,7 +29,7 @@ function headerHTML() {
       <header>
 
         <div class="header-content">
-	        <div class="header-title"><img src="https://i.postimg.cc/Wb1Fdh7z/headerdivider.png alt="A divider composed of pixel art of hibiscus flowers, dolphins and surfboards"> Wildcat's Cove <img src="https://i.postimg.cc/Wb1Fdh7z/headerdivider.png alt="A divider composed of pixel art of hibiscus flowers, dolphins and surfboards""></div>
+	        <div class="header-title"><img src="https://i.postimg.cc/Wb1Fdh7z/headerdivider.png"> Wildcat's Cove <img src="https://i.postimg.cc/Wb1Fdh7z/headerdivider.png"></div>
         
           <div class="header-title">
           <button class="frutiger-aero-button small"><a href="/index">Home</a></button>
@@ -58,7 +58,8 @@ function headerHTML() {
       <center><p style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
           -1px 1px 0 #000, 1px 1px 0 #000; color: cyan;">Link my site!</p>
       <img src="/img/sitebutton.gif">
-      <textarea><a href="https://wwww.wildcatscove.neocities.com"><img src="https://www.wildcatscove.neocities.com/img/sitebutton.gif"></textarea></center>
+      <textarea><a href="https://wwww.wildcatscove.neocities.com"><img src="https://www.wildcatscove.neocities.com/img/sitebutton.gif"></textarea>
+      Hotlinking is a-ok!</center>
       <hr>
 
       </aside>
@@ -93,6 +94,11 @@ function headerHTML() {
       <img src="/graphics/blinkies/internetloser.gif">
       <a href="/graphics/blinkies">More Blinkies</a></center>
       <hr>
+
+      <center><a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/assets/img/linkback.gif" alt="petrapixel"></a>
+      <a href="https://ne0nbandit.neocities.org/" target="_blank"><img src="https://ne0nbandit.github.io/assets/img/btn/mine/nbbanner.png"></a>
+      <a href="https://deerwithpaws.neocities.org/"><img src="https://deerwithpaws.neocities.org/img/button.gif"></a>
+      <p><a href="about/links">More Sites</a></p></center>
 
       </aside>
       `;

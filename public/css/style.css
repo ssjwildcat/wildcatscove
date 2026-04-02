@@ -29,7 +29,7 @@
     --border: 2px solid rgb(24, 1, 19);
     --round-borders: 5px;
     --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
-    --sidebar-width: 200px;
+    --sidebar-width: 250px;
 }
 
 /* -------------------------------------------------------- */
@@ -90,7 +90,7 @@ a:focus {
 /* -------------------------------------------------------- */
 
 .layout {
-    width: 1100px;
+    width: 1200px;
     display: grid;
     grid-gap: var(--margin);
     grid-template: "header header header" auto "leftSidebar main rightSidebar" auto "footer footer footer" auto / var(--sidebar-width) auto var(--sidebar-width);
