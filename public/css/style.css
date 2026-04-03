@@ -397,6 +397,7 @@ main h6 {
     font-size: 1em;
 }
 
+
 /* -------------------------------------------------------- */
 /* CONTENT IMAGES */
 /* -------------------------------------------------------- */
@@ -693,6 +694,13 @@ main h6 {
 .frutiger-aero-button.large {
   padding: 1em 3em;
   font-size: 1.125rem;
+}
+
+/* Center */
+
+.centerdiv {
+    display: block;
+    text-align: center;
 }
 
 

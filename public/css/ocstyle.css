@@ -262,6 +262,7 @@ html, body {margin: 0}
                 text-decoration: none;
                 display: block;
                 border: 1px white solid;
+                color: white;
                 background-color: #4CB9AD;
                 border-radius: 15%;
                 transition-duration: 0.5s;

@@ -51,8 +51,10 @@ function headerHTML() {
       <!-- =============================================== -->
 
       <aside class="left-sidebar">
-	  
+
+      <div class="centerdiv">
       <iframe src="https://petracoding.github.io/neocities/widgets/statuscafe?center=1&marquee=0&font-family=Courier New&font-size=15px&color=#110321&linkColor=#3aff61&width=60px&height=100px&username=saturnianwildcat&hideUsername=0" frameborder="0" title="Status.Cafe Status"></iframe>
+      </div>
       <hr>
 
       <center><p style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000,
@@ -88,11 +90,11 @@ function headerHTML() {
       <center><a href="/graphics/stamps">More Stamps</a></center>
       <hr>
 
-      <center><img src="/graphics/blinkies/iheartdragons.gif">
+      <img src="/graphics/blinkies/iheartdragons.gif">
       <img width="145px" src="/graphics/blinkies/firefox.gif">
       <img src="/graphics/blinkies/cathonor.gif">
       <img src="/graphics/blinkies/internetloser.gif">
-      <a href="/graphics/blinkies">More Blinkies</a></center>
+      <center><a href="/graphics/blinkies">More Blinkies</a></center>
       <hr>
 
       <center><a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/assets/img/linkback.gif" alt="petrapixel"></a>
