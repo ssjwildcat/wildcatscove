@@ -426,7 +426,7 @@ html, body {margin: 0}
 /* OC SECTIONS */
 #allocs {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 #allocs .item {
