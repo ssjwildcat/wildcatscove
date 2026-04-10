@@ -1,0 +1,173 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Liam Piccoli</title>
+  <link rel="stylesheet" href="../../../css/ocstyle.css">
+  <meta name="description" content="">
+  <link rel="icon" href="/favicon.gif" sizes="any">
+</head>
+
+<body>
+
+<header-component></header-component>
+<header id="header" style="background-image: url('https://i.postimg.cc/MTHNJ7jQ/laimthedit.png')"></header>
+<main>
+    <div id="container">
+
+    <div class="w3-bar w3-black">
+      <button class="ocbutton" onclick="opensection('abt')">About</button>
+      <button class="ocbutton" onclick="opensection('relation')">Relationships</button>
+      <button class="ocbutton" onclick="opensection('extra')">Trivia & Extras</button>
+      <button class="ocbutton"><a href="/ocs/rpverse/liam/gallery">Gallery</a></button>
+      <button class="ocbutton"><a href="https://www.pexels.com/photo/street-night-204366/">Header Credit</a></button>
+    </div>
+
+    <h1>Liam Piccoli</h1>
+
+    <div id="abt" class="section">
+
+        <div class="characterprofile">
+            <div class="charactermain-image" style="background-image: url('https://i.postimg.cc/63qkn4xv/obsidiancrop.png')"></div>
+            <table>
+                <tr>
+                    <th colspan="2"></th>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Birthday</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Species</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Pronouns</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Orientation</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <th colspan="2"> </th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="toc"></div>
+        
+        <div id="contents">     
+          <p>Liam is a person prone to bad luck and doesn’t have a lot of faith in the world. His stable family is about the only thing keeping him from going adrift in his own mind. But age had made him wiser, has made him actually want to live. If only it was simpler. </p>
+
+        <a href="#"><h2>Personality</h2></a>
+          <p>On the outset, Liam appears distant and standoffish, often like he’s “off in his own world”. He appreciates being left to his own devices most of the time. He’s inherently distrustful and only trusts a handful of people. He tends to be snarky and rude, though it can depend whether its genuine or just playful. He’s hyperemotional, feeling his emotions very intensely. He’s easy to anger and even easier to make cry. He often attempts to close himself off and rarely shares information about himself, fearing what others may do with it. Those few he does trust find him a quiet but well-meaning person who clumsily but sincerely cares for them.</p>
+
+        <a href="#"><h2>History</h2></a>
+          <p>jgfkdlkldsa</p>
+
+        <a href="#"><h2>Skills</h2></a>
+        <p>Liam is a self-taught programmer who fiddles with it for fun but would like to pursue it professionally. He’s good with computers, both on the hardware and software sides.</p>
+        <p>Due to an interest with reptiles since he was young, he’s very good at keeping them, as he has a leopard gecko. </p>  
+
+        <a href="#"><h2>Reference</h2></a>
+        <div class="referencepage">
+            <div><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/80322857_IvM4XXNIA5iYYi6.png?1723862559"></div>
+        </div>
+        <br>
+        </div>
+    </div>
+
+    <div id="relation" class="section" style="display: none;">
+    <div id="contents">
+        <p>hjgkfld;sa</p>
+        <p>hjgfkdls;a</p>
+    </div>
+    </div>
+
+        <div id="extra" class="section" style="display: none;">
+        <div id="contents">
+            <p>hjgkfld;sa</p>
+            <p>hjgfkdls;a</p>
+        </div>
+        </div>
+
+    </div>
+</main>
+
+  <!-- Side navigation -->
+    <div class="sidenav">
+        <a href="/index.html">Home</a>
+        <a href="/ocs">All OCs</a>
+        <a href="/">Section</a>
+    </div>
+
+</body>
+</html>
+
+        <!-- =============================================== -->
+        <!-- SCRIPTS -->
+        <!-- =============================================== -->
+
+<!-- Don't touch this, it makes the table of contents work, as per: https://stackoverflow.com/questions/187619/is-there-a-javascript-solution-to-generating-a-table-of-contents-for-a-page </-->
+<script>
+window.onload = function () {
+    var toc = "";
+    var level = 0;
+
+    document.getElementById("contents").innerHTML =
+        document.getElementById("contents").innerHTML.replace(
+            /<h([\d])>([\s\S]*?)<\/h\1>/gi,
+            function (str, openLevel, innerHtml) {
+                openLevel = parseInt(openLevel);
+
+                if (openLevel > level) {
+                    toc += (new Array(openLevel - level + 1)).join("<ol>");
+                } else if (openLevel < level) {
+                    toc += (new Array(level - openLevel + 1)).join("</ol>");
+                }
+
+                level = openLevel;
+
+                var tempDiv = document.createElement("div");
+                tempDiv.innerHTML = innerHtml;
+                var plainText = tempDiv.textContent || tempDiv.innerText || "";
+
+                var anchor = plainText.trim()
+                    .replace(/\s+/g, "_")
+                    .replace(/[^\w\-]/g, "");
+
+                toc += "<li><a href=\"#" + anchor + "\">" + plainText + "</a></li>";
+
+                return "<h" + openLevel + " id=\"" + anchor + "\">" + innerHtml + "</h" + openLevel + ">";
+            }
+        );
+
+    if (level) {
+        toc += (new Array(level + 1)).join("</ol>");
+    }
+
+    document.getElementById("toc").innerHTML += toc;
+};
+</script>
+
+<script>
+  function opensection(sectionName) {
+  var i;
+  var x = document.getElementsByClassName("section");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(sectionName).style.display = "block";
+}
+</script>
