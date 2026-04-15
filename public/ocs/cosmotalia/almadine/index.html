@@ -1,0 +1,162 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Almadine</title>
+  <link rel="stylesheet" href="../../../css/ocstyle.css">
+  <meta name="description" content="">
+  <link rel="icon" href="/favicon.gif" sizes="any">
+</head>
+
+<body>
+
+<header-component></header-component>
+<header id="header" style="background-image: url('https://images.unsplash.com/photo-1528843857132-a3d53de8be3d?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></header>
+<main>
+    <div id="container">
+
+    <div class="w3-bar w3-black">
+      <button class="ocbutton" onclick="opensection('abt')">About</button>
+      <button class="ocbutton"><a href="/ocs/cosmotalia/almadine/gallery">Gallery</a></button>
+      <button class="ocbutton"><a href="https://unsplash.com/photos/photography-of-pink-cloud-with-thunder-vg0-eycj2pg">Header Credit</a></button>
+    </div>
+
+    <h1>Almadine</h1>
+
+    <div id="abt" class="section">
+
+        <div class="characterprofile">
+            <div class="charactermain-image" style="background-image: url('https://f2.toyhou.se/file/f2-toyhou-se/images/111042777_wb13I8RE5GARFQN.png')"></div>
+            <table>
+                <tr>
+                    <th colspan="2"></th>
+                </tr>
+                <tr>
+                    <td>Nicknames</td>
+                    <td>Alma</td>
+                </tr>
+                <tr>
+                    <td>Species</td>
+                    <td>Demonic Demigod</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>Pronouns</td>
+                    <td>he/him</td>
+                </tr>
+                <tr>
+                    <td>Orientation</td>
+                    <td>Acearo</td>
+                </tr>
+                <tr>
+                    <td>Element</td>
+                    <td>Unaligned</td>
+                </tr>
+                <tr>
+                    <th colspan="2"> </th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="toc"></div>
+        
+        <div id="contents">     
+          <p>Alma is an exceptionally powerful demon and a demigod of the god Charon, the Dancing Devil. However, he’s been marooned from his parent and people in Saturnia. He doesn’t seem to mind this and is happy to pursue whatever he likes to amuse himself. Nowadays, it seems to be helping a guild of paranormal investigators and conspiracy theorists.</p>
+
+        <a href="#"><h2>Personality</h2></a>
+          <p>Almadine carries himself above his mortal peers, truly seeing himself as better than them. He is aloof, snarky and arrogant. He often helps others but is happy to let others believe he did it for his own selfishness or because he was bored. Yet, he holds a soft spot for the Saturn Devils and fugitive Island Devils, often genuinely providing assistance. He is often bored and seeks entertainment in whatever he desires or what might interest him. He refuses to talk about himself or his feelings, leading the rare people who are close to him speculate he has deeper feelings than he lets on.</p>
+
+        <a href="#"><h2>History</h2></a>
+          <p>Almadine, or Alma as he prefers to be called, is an exceptional specimen: a demonic demigod. He was formed after the sundering of the Satchu Peninsula from Saturnia and the agony of its god, Charon. As a result, he also was formed with a portion of his divine essence. Alma was left in Saturnia where he has been since. And he hasn’t made any attempt on going to Satchu for reasons he keeps to himself. In truth, its in part of his shame towards the Island Devils and in part in not knowing what may happen if he reunited with his divine progenitor. He’s since stayed in Saturnia, doing whatever he desires of his own free will.</p>
+          <p>Nowadays, he’s grown an interest in GIEM, the Guild Investigating Eccentric Matters and has taken to helping them with their investigations. If he’s doing this just to amuse himself or if he has some deeper motive, no one in the guild can guess—or dares ask.</p>
+
+        <a href="#"><h2>Skills</h2></a>
+        <p>Alma’s unique status gives him a wide variety of esoteric abilities. He can manipulate earth and water to a limited degree, abilities that he attributes to his demonic heritage. He can use illusion magic, often to disguise himself or to trick others’ perception. He has limited psychic abilities, able to speak telepathically with others and to use psychic suggestion. He can change to a larger, more demonic form though he rarely uses it. </p>  
+
+        <a href="#"><h2>Trivia</h2></a>
+        <p>The “spot” on Alma’s head is actually a closed third eye which only opens when he expends great power.</p>
+        <p>Almadine's name comes from a corruption of "almandine", a type of garnet.</p>
+
+        <a href="#"><h2>Reference</h2></a>
+        <div class="referencepage">
+            <div><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/80494354_AvBfU0eiHhhDUWk.png"></div>
+        </div>
+        <br>
+        </div>
+    </div>
+
+
+    </div>
+</main>
+
+  <!-- Side navigation -->
+    <div class="sidenav">
+        <a href="/index.html">Home</a>
+        <a href="/ocs">All OCs</a>
+        <a href="/ocs/cosmotalia">Cosmotalia</a>
+    </div>
+
+</body>
+</html>
+
+        <!-- =============================================== -->
+        <!-- SCRIPTS -->
+        <!-- =============================================== -->
+
+<!-- Don't touch this, it makes the table of contents work, as per: https://stackoverflow.com/questions/187619/is-there-a-javascript-solution-to-generating-a-table-of-contents-for-a-page </-->
+<script>
+window.onload = function () {
+    var toc = "";
+    var level = 0;
+
+    document.getElementById("contents").innerHTML =
+        document.getElementById("contents").innerHTML.replace(
+            /<h([\d])>([\s\S]*?)<\/h\1>/gi,
+            function (str, openLevel, innerHtml) {
+                openLevel = parseInt(openLevel);
+
+                if (openLevel > level) {
+                    toc += (new Array(openLevel - level + 1)).join("<ol>");
+                } else if (openLevel < level) {
+                    toc += (new Array(level - openLevel + 1)).join("</ol>");
+                }
+
+                level = openLevel;
+
+                var tempDiv = document.createElement("div");
+                tempDiv.innerHTML = innerHtml;
+                var plainText = tempDiv.textContent || tempDiv.innerText || "";
+
+                var anchor = plainText.trim()
+                    .replace(/\s+/g, "_")
+                    .replace(/[^\w\-]/g, "");
+
+                toc += "<li><a href=\"#" + anchor + "\">" + plainText + "</a></li>";
+
+                return "<h" + openLevel + " id=\"" + anchor + "\">" + innerHtml + "</h" + openLevel + ">";
+            }
+        );
+
+    if (level) {
+        toc += (new Array(level + 1)).join("</ol>");
+    }
+
+    document.getElementById("toc").innerHTML += toc;
+};
+</script>
+
+<script>
+  function opensection(sectionName) {
+  var i;
+  var x = document.getElementsByClassName("section");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(sectionName).style.display = "block";
+}
+</script>

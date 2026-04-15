@@ -461,9 +461,24 @@ html, body {margin: 0}
     color:white;
     border: white dashed;
 }
+
+.relationbox a {
+    color:blue;
+}
+
 .relationbox img {
     float: left;
     border-radius: 10px;
     padding: 5px;
     margin-right: 10px;
 } 
+
+/* COLUMNS */
+#columns {
+    columns: auto;
+    column-count: 2;
+}
+
+#columns li {
+    list-style-type: none;
+}
