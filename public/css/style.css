@@ -19,8 +19,8 @@
     --link-color-hover: #c2ffd2;
 
     /* Text: */
-    --font: Open Sans, sans-serif;
-    --heading-font: Monaco, monospace;
+    --font: "Open Sans", sans-serif;
+    --heading-font: "Handwriting", monospace;
     --font-size: 16px;
 
     /* Other Settings: */
@@ -35,6 +35,14 @@
 /* -------------------------------------------------------- */
 /* BASICS */
 /* -------------------------------------------------------- */
+
+@font-face { 
+	font-family: "Handwriting"; 
+	src: url("./fonts/Handwriting-Regular.ttf") format("truetype"); 
+	font-weight: normal;
+	font-style: normal; 
+	font-display: swap; 
+}
 
 * {
     box-sizing: border-box;
@@ -52,9 +60,7 @@ body {
     font-family: var(--font);
     line-height: 1.2;
     background: var(--background-color);
-    background-image: url(https://i.postimg.cc/J4LqB4Br/neocitiesbg2.png);
-    background-size: 100% 100%;
-
+    background-image: url('https://file.garden/aWWU1egoWxmNHEDn/neocitiesbg2.webp');
 }
 
 ::selection {
