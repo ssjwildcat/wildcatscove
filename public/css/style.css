@@ -20,7 +20,7 @@
 
     /* Text: */
     --font: "Open Sans", sans-serif;
-    --heading-font: "Handwriting", monospace;
+    --heading-font: monospace;
     --font-size: 16px;
 
     /* Other Settings: */
@@ -35,14 +35,6 @@
 /* -------------------------------------------------------- */
 /* BASICS */
 /* -------------------------------------------------------- */
-
-@font-face { 
-	font-family: "Handwriting"; 
-	src: url("./fonts/Handwriting-Regular.ttf") format("truetype"); 
-	font-weight: normal;
-	font-style: normal; 
-	font-display: swap; 
-}
 
 * {
     box-sizing: border-box;

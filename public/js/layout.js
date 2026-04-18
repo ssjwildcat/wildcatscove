@@ -29,7 +29,7 @@ function headerHTML() {
       <header>
 
         <div class="header-content">
-	        <div class="header-title"><img src="/img/dividers/headerdivider.png"> Wildcat's Cove <img src="/img/dividers/headdivider.png"></div>
+	        <div class="header-title"><img src="https://file.garden/aWWU1egoWxmNHEDn/headerdivider.png"> Wildcat's Cove <img src="https://file.garden/aWWU1egoWxmNHEDn/headerdivider.png"></div>
         
           <div class="header-title">
           <button class="frutiger-aero-button small"><a href="/index">Home</a></button>
