@@ -1,0 +1,161 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maelstrom</title>
+  <link rel="stylesheet" href="../../../css/ocstyle.css">
+  <meta name="description" content="">
+  <link rel="icon" href="/favicon.gif" sizes="any">
+</head>
+
+<body>
+
+<header-component></header-component>
+<header id="header" style="background-image: url('https://file.garden/aWWU1egoWxmNHEDn/gallery%20icons/cosmotalia/maelstrom/VP8m9lE.png')"></header>
+<main>
+    <div id="container">
+
+    <div class="w3-bar w3-black">
+      <button class="ocbutton" onclick="opensection('abt')">About</button>
+      <button class="ocbutton"><a href="/ocs/cosmotalia/maelstrom/gallery">Gallery</a></button>
+      <button class="ocbutton"><a href="https://unsplash.com/photos/black-snake-closeup-photo-QZePScKPb2Q">Header Credit</a></button>
+    </div>
+
+    <h1>Maelstrom</h1>
+
+    <div id="abt" class="section">
+
+        <div class="characterprofile">
+            <div class="charactermain-image" style="background-image: url('https://f2.toyhou.se/file/f2-toyhou-se/images/45778729_mZdp65Omhf42K0n.png')"></div>
+            <table>
+                <tr>
+                    <th colspan="2"></th>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td>Species</td>
+                    <td>Dragon - Drake</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>Pronouns</td>
+                    <td>he/him</td>
+                </tr>
+                <tr>
+                    <td>Orientation</td>
+                    <td>Demi-bisexual</td>
+                </tr>
+                <tr>
+                    <td>Alignment</td>
+                    <td>Fire</td>
+                </tr>
+                <tr>
+                    <th colspan="2"> </th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="toc"></div>
+        
+        <div id="contents">     
+          <p>A menace who sprung from seemingly nowhere, Maelstrom has been razing places, snatching creatures and really just doing shady things in the dark. One may underestimate him but his relatively plain look hides a calculating mind that demands control over Saturnia.</p>
+
+        <a href="#"><h2>Personality</h2></a>
+          <p>Maelstrom can be summed up as cold, calculating and cunning. He values keeping up a distant facade to all those around him but there is a furious manic creature lurking underneath that tends to either push all that down or take it out on those around him. He has an obsession with control and elegance, wanting to feel constantly in control and perfectly clean. He rarely seeks out lasting relationships, typically only using others as a means to an end. </p>
+
+        <a href="#"><h2>History</h2></a>
+          <p>From whenever Maelstrom could remember, his companion was a hulking black wolf and lived within the Inketch Death with him. In truth, neither loved the other in their twisted “familial” relationship. The wolf groomed him to believe that <a href="/world/godsandspirits/inketch">Inketch</a> was the true god of Saturnia and that his exile showed the Sentinels were evil. Despite this, Maelstrom never fully believed it as he saw the ink corrupt and damage the Wolf. The Wolf wanted him to take on the mantle of “Knight of Ink” and do Inketch’s bidding, something Maelstrom lied and agreed with. He truly wanted to harness ink in a different, more elegant way. He felt he was meant for greater things, to take control of Saturnia for its own benefit.</p>
+          <p>One day, the Wolf did not return, as it was killed by the Elemental Champions. Immediately, Maelstrom left, in search for knowledge and allies. He learned of the 13 Knights and, feeling they could impede his progress, set out to stop them before they could even blossom.</p>
+          <p>Among these actions, was the kidnapping of Croc and Blizzard. However, he was foiled by their sister Screech and her ally Squall. Before he fled though, he used devices to drain them of a portion of their power. </p>
+
+        <a href="#"><h2>Skills</h2></a>
+        <p>Due to his Fire alignment, he has a fire breath weapon.</p> 
+        
+        <a href="#"><h2>Trivia</h2></a>
+        <p>The origin of Maelstrom is from an old fanfiction in which he was a shapeshifting dimension-conquering entity known as “The Time Maelstrom”.</p>
+
+        <a href="#"><h2>Reference</h2></a>
+        <div class="referencepage">
+            <div><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/28922396_z5PdWW9boxuSuFk.png"></div>
+        </div>
+        <br>
+        </div>
+    </div>
+
+    </div>
+</main>
+
+  <!-- Side navigation -->
+    <div class="sidenav">
+        <a href="/index.html">Home</a>
+        <a href="/ocs">All OCs</a>
+        <a href="/ocs/cosmotalia">Cosmotalia</a>
+    </div>
+
+</body>
+</html>
+
+        <!-- =============================================== -->
+        <!-- SCRIPTS -->
+        <!-- =============================================== -->
+
+<!-- Don't touch this, it makes the table of contents work, as per: https://stackoverflow.com/questions/187619/is-there-a-javascript-solution-to-generating-a-table-of-contents-for-a-page </-->
+<script>
+window.onload = function () {
+    var toc = "";
+    var level = 0;
+
+    document.getElementById("contents").innerHTML =
+        document.getElementById("contents").innerHTML.replace(
+            /<h([\d])>([\s\S]*?)<\/h\1>/gi,
+            function (str, openLevel, innerHtml) {
+                openLevel = parseInt(openLevel);
+
+                if (openLevel > level) {
+                    toc += (new Array(openLevel - level + 1)).join("<ol>");
+                } else if (openLevel < level) {
+                    toc += (new Array(level - openLevel + 1)).join("</ol>");
+                }
+
+                level = openLevel;
+
+                var tempDiv = document.createElement("div");
+                tempDiv.innerHTML = innerHtml;
+                var plainText = tempDiv.textContent || tempDiv.innerText || "";
+
+                var anchor = plainText.trim()
+                    .replace(/\s+/g, "_")
+                    .replace(/[^\w\-]/g, "");
+
+                toc += "<li><a href=\"#" + anchor + "\">" + plainText + "</a></li>";
+
+                return "<h" + openLevel + " id=\"" + anchor + "\">" + innerHtml + "</h" + openLevel + ">";
+            }
+        );
+
+    if (level) {
+        toc += (new Array(level + 1)).join("</ol>");
+    }
+
+    document.getElementById("toc").innerHTML += toc;
+};
+</script>
+
+<script>
+  function opensection(sectionName) {
+  var i;
+  var x = document.getElementsByClassName("section");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(sectionName).style.display = "block";
+}
+</script>

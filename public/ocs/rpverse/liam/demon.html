@@ -1,0 +1,154 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demon Liam</title>
+  <link rel="stylesheet" href="../../../css/ocstyle.css">
+  <meta name="description" content="">
+  <link rel="icon" href="/favicon.gif" sizes="any">
+</head>
+
+<body>
+
+<header-component></header-component>
+<header id="header" style="background-image: url('https://file.garden/aWWU1egoWxmNHEDn/gallery%20icons/rpverse/liam/demonliam.png')"></header>
+<main>
+    <div id="container">
+
+    <div class="w3-bar w3-black">
+      <button class="ocbutton"><a href="https://unsplash.com/photos/orange-and-yellow-flame-illustration-fzfDRXUya-s">Header Credit</a></button>
+    </div>
+
+    <h1>Liam</h1>
+
+    <div id="abt" class="section">
+
+        <div class="characterprofile">
+            <div class="charactermain-image" style="background-image: url('https://f2.toyhou.se/file/f2-toyhou-se/images/64020094_nag5QwBFUGeIXQg.png?1682123592')"></div>
+            <table>
+                <tr>
+                    <th colspan="2"></th>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>appears 23</td>
+                </tr>
+                <tr>
+                    <td>Species</td>
+                    <td>Incubus Demon</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>Pronouns</td>
+                    <td>he/him</td>
+                </tr>
+                <tr>
+                    <td>Orientation</td>
+                    <td>Bisexual</td>
+                </tr>
+                <tr>
+                    <th colspan="2"> </th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="toc"></div>
+        
+        <div id="contents">     
+
+        <a href="#"><h2>Personality</h2></a>
+          <p>This version of Liam is him without his inhibitor: his complete lack of self-esteem. He’s more confident in himself but tends to be manic and unpredictable in his behavior, as he cares less for how he’s perceived. He lets his natural demonic abilities carry him, as he is still pretty socially inept. He tends to stumble into his encounters without any idea on how exactly he did it. His over emotional nature still remains and his emotions can come off strongly. He tends to use overindulgence and hedonism to deal with these rather than think about how he feels. He can even be violent if the mood overtakes him. He’d rather keep up and image of himself that’s personable and flirtatious rather than share his deeper feelings with others.</p>
+
+        <a href="#"><h2>History</h2></a>
+          <p>Liam was human before he became a demon though he knows little of who he was prior. He knows his first name and that he died tragically young. He says he doesn’t mind not knowing any of his prior life, as his current one allows him the ability to indulge in all his vices without consequence or guilt. He enjoys spending time on Earth, which he says is full of beauty and excitement. Certainly not because it speaks to something familiar, deep inside him.</p>
+
+        <a href="#"><h2>Skills</h2></a>
+        <p>As an incubus, he has an uncanny knack for seduction that seems to work with and past his social ineptness. He’s also more acrobatic and flexible than the average human. His wings are largely non-functional and for show though allow him to flutter a few feet off the ground. When not needed, they “meld” into his back as tattoos. His tail is completely flexible and prehensile. </p>  
+
+        <a href="#"><h2>Gallery</h2></a>
+        <div id="ocgallery2">
+            <div class="item"><a href="https://f2.toyhou.se/file/f2-toyhou-se/images/71535053_isTOgwBAtlYq3tZ.png" target="_blank"><img src="https://file.garden/aWWU1egoWxmNHEDn/gallery%20icons/rpverse/liam/icons_refs_liam_demon.jpg"></a>
+            <p>Reference</p></div>
+            <div class="item"><a href="https://f2.toyhou.se/file/f2-toyhou-se/images/71535027_k6vYjRPmtJz6KVI.png" target="_blank"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/71535027_k6vYjRPmtJz6KVI.png"></a>
+            <p>Icon</p></div>
+            <div class="item"><a href="https://f2.toyhou.se/file/f2-toyhou-se/images/64020094_nag5QwBFUGeIXQg.png?1682123592" target="_blank"><img src="https://file.garden/aWWU1egoWxmNHEDn/gallery%20icons/rpverse/liam/icons_artbyme_liam_demon.jpg"></a>
+            <p>04/23/2023</p></div>
+        </div>
+        
+        </div>
+    </div>
+    </div>
+</main>
+
+  <!-- Side navigation -->
+    <div class="sidenav">
+        <a href="/index.html">Home</a>
+        <a href="/ocs">All OCs</a>
+        <a href="/ocs/rpverse">RPVerse</a>
+        <a href="ocs/rpverse/liam">Main</a>
+    </div>
+
+</body>
+</html>
+
+        <!-- =============================================== -->
+        <!-- SCRIPTS -->
+        <!-- =============================================== -->
+
+<!-- Don't touch this, it makes the table of contents work, as per: https://stackoverflow.com/questions/187619/is-there-a-javascript-solution-to-generating-a-table-of-contents-for-a-page </-->
+<script>
+window.onload = function () {
+    var toc = "";
+    var level = 0;
+
+    document.getElementById("contents").innerHTML =
+        document.getElementById("contents").innerHTML.replace(
+            /<h([\d])>([\s\S]*?)<\/h\1>/gi,
+            function (str, openLevel, innerHtml) {
+                openLevel = parseInt(openLevel);
+
+                if (openLevel > level) {
+                    toc += (new Array(openLevel - level + 1)).join("<ol>");
+                } else if (openLevel < level) {
+                    toc += (new Array(level - openLevel + 1)).join("</ol>");
+                }
+
+                level = openLevel;
+
+                var tempDiv = document.createElement("div");
+                tempDiv.innerHTML = innerHtml;
+                var plainText = tempDiv.textContent || tempDiv.innerText || "";
+
+                var anchor = plainText.trim()
+                    .replace(/\s+/g, "_")
+                    .replace(/[^\w\-]/g, "");
+
+                toc += "<li><a href=\"#" + anchor + "\">" + plainText + "</a></li>";
+
+                return "<h" + openLevel + " id=\"" + anchor + "\">" + innerHtml + "</h" + openLevel + ">";
+            }
+        );
+
+    if (level) {
+        toc += (new Array(level + 1)).join("</ol>");
+    }
+
+    document.getElementById("toc").innerHTML += toc;
+};
+</script>
+
+<script>
+  function opensection(sectionName) {
+  var i;
+  var x = document.getElementsByClassName("section");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(sectionName).style.display = "block";
+}
+</script>

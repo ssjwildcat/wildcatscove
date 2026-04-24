@@ -387,16 +387,35 @@ html, body {margin: 0}
 #ocgallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: 450px;
+    height: 400px;
     overflow-y: auto;
 }
 
 #ocgallery .item {
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 #ocgallery .item img {
+    width: 50%;
+}
+
+/* SMALL OC GALLERY */
+
+#ocgallery2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 250px;
+    overflow-y: auto;
+    margin-bottom: 30px;
+}
+
+#ocgallery2 .item {
+    text-align: center;
+    font-size: 14px;
+}
+
+#ocgallery2 .item img {
     width: 50%;
 }
 
