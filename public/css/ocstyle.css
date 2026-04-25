@@ -432,7 +432,7 @@ html, body {margin: 0}
 }
 
 #ocsections .item img {
-    width: 75%;
+    width: 50%;
     transition: transform 0.5s ease;
     margin-bottom: 5px;
 }
@@ -455,7 +455,7 @@ html, body {margin: 0}
 }
 
 #allocs .item img {
-    width: 75%;
+    width: 50%;
     transition: transform 0.5s ease;
     margin-bottom: 5px;
 }
