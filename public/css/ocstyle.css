@@ -528,3 +528,38 @@ html, body {margin: 0}
     text-align: center;
     color: #4CB9AD;
 }
+
+/* PAGINATION */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none; /* remove list bullets */
+  padding: 0px;
+}
+
+.pagination li a {
+  display: block; /* let links fill the list item */
+  padding: 8px 12px;
+  text-decoration: none;
+  border: 1px solid white;
+  color: white;
+  background-color: #1C141D;
+  margin: 0 4px;
+  border-radius: 5px; /* add rounded borders */
+}
+
+.pagination li a.active {
+  background-color: #5a4a71;
+  color: white;
+}
+
+.pagination li a.disabled {
+  color: #999797;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.pagination li a:hover:not(.active) {
+  background-color: #8c73ae;
+}
