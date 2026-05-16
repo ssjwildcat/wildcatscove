@@ -1,0 +1,163 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gailan</title>
+  <link rel="stylesheet" href="../../../css/ocstyle.css">
+  <meta name="description" content="">
+  <link rel="icon" href="/favicon.gif" sizes="any">
+</head>
+
+<body>
+
+<header-component></header-component>
+<header id="header" style="background-image: url('https://images.unsplash.com/photo-1464802686167-b939a6910659?q=80&w=1150&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></header>
+<main>
+    <div id="container">
+
+    <div class="w3-bar w3-black">
+      <button class="ocbutton"><a href="/ocs/fandom/gailan/gallery">Gallery</a></button>
+      <button class="ocbutton"><a href="https://unsplash.com/photos/blue-and-purple-galaxy-digital-wallpaper-E0AHdsENmDg">Header Credit</a></button>
+    </div>
+
+    <h1>Gailan</h1>
+
+    <div id="abt" class="section">
+
+        <div class="characterprofile">
+            <div class="charactermain-image" style="background-image: url('https://file.toyhou.se/images/13585330_to693MA2PfX6p7I.png')"></div>
+            <table>
+                <tr>
+                    <th colspan="2"></th>
+                </tr>
+                <tr>
+                    <td>Code Name</td>
+                    <td>"Dagger"</td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>Species</td>
+                    <td>Saiyan</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>Pronouns</td>
+                    <td>he/him</td>
+                </tr>
+                <tr>
+                    <td>Orientation</td>
+                    <td>Grey-asexual</td>
+                </tr>
+                <tr>
+                    <th colspan="2"> </th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="toc"></div>
+        
+        <div id="contents">     
+
+        <a href="#"><h2>Personality</h2></a>
+          <p>Out of his siblings, Gailan is the most mellow which he thinks is because he’s the weakest. As a result, he’s made a point to be more stealthy than outright muscle. He’s a lot more smarter than he lets on, typically letting others think he’s an impulsive and childish young adult. He’s hard to anger but when he does, it’s an explosive and volatile one.</p>
+
+        <a href="#"><h2>History</h2></a>
+          <p>Born on an alien planet to a pair of Saiyan refugees along with his siblings Savoy and Kohlra, all Gailan has known of Saiyan culture is what his parents have told them. As a result of his parents having fled Planet Vegeta in anticipation of some disaster, they were some of the last remaining of their kind and had to live in isolation. However, despite their best intentions, they were found by a remaining splinter force formerly belonging to Freiza’s forces and attacked. Woefully outnumbered and outmatched, their parents urged their children to run which Gailan did. When he returned, he found his parents and older brother dead and sister disappeared.</p>
+          <p>Saddened, he left for one of the native villages and lived there for a time until a group of mercenaries lead by Hakkl rolled through to refuel and restock. Fascinated, he ended up joining them and becoming “Dagger”, a life he enjoyed a lot.</p>
+          <p>Eventually on chance he came across Vilik who was fascinated by the sight of a living and thriving Saiyan. Annoyed by Vilik’s insistence of an explanation, the two came to blows. Even after the first encounter, Gailan encountered the void creature often, leading him to suspect him of stalking him which in turn led to further battles. Now, Gailan and his troupe head to Earth for what they hope to be a quiet vacation.</p>
+
+        <a href="#"><h2>Skills</h2></a>
+        <p>As a Saiyan hybrid, he has an innate sense of ki control. With it, he can fly, use ki in attacks, and sense ki. His Saiyan genes give him zenkai, which gives him a boost in his power after recovering from battle. He also has super strength, agility, speed, durability and endurance. However, an oddity among his kind, he’s prioritized being light on his feet and stealthy.</p>
+        <p>As he still has his tail, he could tranform into an Oozaru under a full moon. Later on, he gains the ability to go Super Saiyan. </p>  
+
+        <a href="#"><h2>Trivia</h2></a>
+        <p>Gailan’s name is based on the gai lan also known as chinese broccoli.</p>
+        <p>Gailan’s code name “Dagger” is a reference to the term “cloak and dagger” which references his more stealthy tactics as well as keeping in line with his team’s theme of knife-based code names.</p>
+        <p>Gailan’s design and story is loosely based off an old iteration of an OC who was a dragon-hybrid space mercenary.</p>
+
+        <a href="#"><h2>Reference</h2></a>
+        <div class="referencepage">
+            <div><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/41266405_4GsZSovJDDOJ3vO.png?1713773004"></div>
+        </div>
+        <br>
+        </div>
+    </div>
+
+    </div>
+</main>
+
+  <!-- Side navigation -->
+    <div class="sidenav">
+        <a href="/index.html">Home</a>
+        <a href="/ocs">All OCs</a>
+        <a href="/ocs/fandom">Fandom</a>
+        <a href="https://artfight.net/character/2130265.gailan-dbz">Attack on Artfight!</a>
+    </div>
+
+</body>
+</html>
+
+        <!-- =============================================== -->
+        <!-- SCRIPTS -->
+        <!-- =============================================== -->
+
+<!-- Don't touch this, it makes the table of contents work, as per: https://stackoverflow.com/questions/187619/is-there-a-javascript-solution-to-generating-a-table-of-contents-for-a-page </-->
+<script>
+window.onload = function () {
+    var toc = "";
+    var level = 0;
+
+    document.getElementById("contents").innerHTML =
+        document.getElementById("contents").innerHTML.replace(
+            /<h([\d])>([\s\S]*?)<\/h\1>/gi,
+            function (str, openLevel, innerHtml) {
+                openLevel = parseInt(openLevel);
+
+                if (openLevel > level) {
+                    toc += (new Array(openLevel - level + 1)).join("<ol>");
+                } else if (openLevel < level) {
+                    toc += (new Array(level - openLevel + 1)).join("</ol>");
+                }
+
+                level = openLevel;
+
+                var tempDiv = document.createElement("div");
+                tempDiv.innerHTML = innerHtml;
+                var plainText = tempDiv.textContent || tempDiv.innerText || "";
+
+                var anchor = plainText.trim()
+                    .replace(/\s+/g, "_")
+                    .replace(/[^\w\-]/g, "");
+
+                toc += "<li><a href=\"#" + anchor + "\">" + plainText + "</a></li>";
+
+                return "<h" + openLevel + " id=\"" + anchor + "\">" + innerHtml + "</h" + openLevel + ">";
+            }
+        );
+
+    if (level) {
+        toc += (new Array(level + 1)).join("</ol>");
+    }
+
+    document.getElementById("toc").innerHTML += toc;
+};
+</script>
+
+<script>
+  function opensection(sectionName) {
+  var i;
+  var x = document.getElementsByClassName("section");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(sectionName).style.display = "block";
+}
+</script>

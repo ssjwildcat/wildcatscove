@@ -1,0 +1,153 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rita Rattler</title>
+  <link rel="stylesheet" href="../../../css/ocstyle.css">
+  <meta name="description" content="">
+  <link rel="icon" href="/favicon.gif" sizes="any">
+</head>
+
+<body>
+
+<header-component></header-component>
+<header id="header" style="background-image: url('https://images.unsplash.com/photo-1596763950802-1d88da92758a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></header>
+<main>
+    <div id="container">
+
+    <div class="w3-bar w3-black">
+      <button class="ocbutton"><a href="/ocs/fandom/rita/gallery">Gallery</a></button>
+      <button class="ocbutton"><a href="https://unsplash.com/photos/brown-and-black-snake-on-white-sand-l6aAMUH_oW8">Header Credit</a></button>
+    </div>
+
+    <h1>Rita Rattler</h1>
+
+    <div id="abt" class="section">
+
+        <div class="characterprofile">
+            <div class="charactermain-image" style="background-image: url('https://f2.toyhou.se/file/f2-toyhou-se/images/36946382_r5bUSZiSbzZWhR7.png')"></div>
+            <table>
+                <tr>
+                    <th colspan="2"></th>
+                </tr>
+                <tr>
+                    <td>Species</td>
+                    <td>Animatronic Rattlesnake</td>
+                </tr>
+                <tr>
+                    <td>Function</td>
+                    <td>Musician</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>Female</td>
+                </tr>
+                <tr>
+                    <td>Pronouns</td>
+                    <td>she/her</td>
+                </tr>
+                <tr>
+                    <td>Profile Credit</td>
+                    <td><a href="https://toyhou.se/floresdeserti">floresdeserti</a></td>
+                </tr>
+                <tr>
+                    <th colspan="2"> </th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="toc"></div>
+        
+        <div id="contents">     
+
+        <a href="#"><h2>Personality</h2></a>
+          <p>Rita is a spunky and energetic gal, bringing a lot of energy to her shows. She likes to jokingly tease the children in her audience and generally plays up her bad girl personality.</p>
+          <p>While she isn’t hostile typically, she will trust her friend Jasper’s warnings and thus attack others when he says they should.</p>
+
+        <a href="#"><h2>History</h2></a>
+          <p>Rita was created for the now defunct Rattlesnake Saloon established in the mid nineties, intended to fill the space Freddy Fazbear’s had left behind after their decline after ‘93. She was one of only two animatronics built for the place and was the musician, who’d both sing and play her maracas. After her best friend Jasper was scrapped, she found a lot of responsibility on her shoulders until any new animatronics were created to perform alongside her. She often still visited Jasper who delivered what he saw to her. </p>
+          <p>One night, he told her of someone who would come in the next day that was dangerous. True to his word, a shady man came in the next day that got too close to the children. When he got too close to the stage with a child, she acted fast and bit him. Her fangs didn’t deliver a grievous wound but she did end up breaking his arm. Despite the man later being found to be a predator, the restaurant suffered from the incident and closed down, leaving her to be scrapped. Nowadays, she lies abandoned in an old warehouse with others who met the same fate along with Jasper.</p>
+
+        <a href="#"><h2>Skills</h2></a>
+        <p>Rita can play music and play her maracas. The maracas can be removed from her hands and swapped in for a mic. She has the ability to converse with customers. She can move around though, considering how unique her form is, she doesn’t often.</p>  
+
+        <a href="#"><h2>Reference</h2></a>
+        <div class="referencepage">
+            <div><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/36150669_9hc94e7YopygJyl.png"></div>
+        </div>
+        <br>
+        </div>
+    </div>
+
+    </div>
+</main>
+
+  <!-- Side navigation -->
+    <div class="sidenav">
+        <a href="/index.html">Home</a>
+        <a href="/ocs">All OCs</a>
+        <a href="/ocs/fandom">Fandom</a>
+        <a href="https://artfight.net/character/1408896.rita-rattler-fnaf">Attack on Artfight!</a>
+    </div>
+
+</body>
+</html>
+
+        <!-- =============================================== -->
+        <!-- SCRIPTS -->
+        <!-- =============================================== -->
+
+<!-- Don't touch this, it makes the table of contents work, as per: https://stackoverflow.com/questions/187619/is-there-a-javascript-solution-to-generating-a-table-of-contents-for-a-page </-->
+<script>
+window.onload = function () {
+    var toc = "";
+    var level = 0;
+
+    document.getElementById("contents").innerHTML =
+        document.getElementById("contents").innerHTML.replace(
+            /<h([\d])>([\s\S]*?)<\/h\1>/gi,
+            function (str, openLevel, innerHtml) {
+                openLevel = parseInt(openLevel);
+
+                if (openLevel > level) {
+                    toc += (new Array(openLevel - level + 1)).join("<ol>");
+                } else if (openLevel < level) {
+                    toc += (new Array(level - openLevel + 1)).join("</ol>");
+                }
+
+                level = openLevel;
+
+                var tempDiv = document.createElement("div");
+                tempDiv.innerHTML = innerHtml;
+                var plainText = tempDiv.textContent || tempDiv.innerText || "";
+
+                var anchor = plainText.trim()
+                    .replace(/\s+/g, "_")
+                    .replace(/[^\w\-]/g, "");
+
+                toc += "<li><a href=\"#" + anchor + "\">" + plainText + "</a></li>";
+
+                return "<h" + openLevel + " id=\"" + anchor + "\">" + innerHtml + "</h" + openLevel + ">";
+            }
+        );
+
+    if (level) {
+        toc += (new Array(level + 1)).join("</ol>");
+    }
+
+    document.getElementById("toc").innerHTML += toc;
+};
+</script>
+
+<script>
+  function opensection(sectionName) {
+  var i;
+  var x = document.getElementsByClassName("section");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(sectionName).style.display = "block";
+}
+</script>

@@ -1,0 +1,165 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Luigi Piccoli</title>
+  <link rel="stylesheet" href="../../../css/ocstyle.css">
+  <meta name="description" content="">
+  <link rel="icon" href="/favicon.gif" sizes="any">
+</head>
+
+<body>
+
+<header-component></header-component>
+<header id="header" style="background-image: url('https://file.garden/aWWU1egoWxmNHEDn/gallery%20icons/rpverse/lp/3i8fTd5.jpeg')"></header>
+<main>
+    <div id="container">
+
+    <div class="w3-bar w3-black">
+      <button class="ocbutton"><a href="https://www.pexels.com/photo/black-outdoor-pedestal-lamp-near-coaster-train-rail-92248/">Header Credit</a></button>
+    </div>
+
+    <h1>Luigi Piccoli</h1>
+
+    <div id="abt" class="section">
+
+        <div class="characterprofile">
+            <div class="charactermain-image" style="background-image: url('https://file.garden/aWWU1egoWxmNHEDn/gallery%20icons/rpverse/lp/luigicrop.jpg')"></div>
+            <table>
+                <tr>
+                    <th colspan="2"></th>
+                </tr>
+                 <tr>
+                    <td>Full Name</td>
+                    <td>Luigi "LP" Piccoli</td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>Birthday</td>
+                    <td>January 27th (Aquarius)</td>
+                </tr>
+                <tr>
+                    <td>Species</td>
+                    <td>Human</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>Pronouns</td>
+                    <td>he/him</td>
+                </tr>
+                <tr>
+                    <td>Orientation</td>
+                    <td>Bisexual</td>
+                </tr>
+                <tr>
+                    <th colspan="2"> </th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="toc"></div>
+        
+        <div id="contents">     
+
+        <a href="#"><h2>Personality</h2></a>
+        <p>Without the exposure and isolation of Cyberspace, he’s a more stable individual, being temperamental and pessimistic still but coming off as grumpy rather than flat out angry. He generally has little patience and can come off as easily annoyed. His brother Liam is one of the few exceptions to this as he views himself as his brother’s keeper and responsible to keep him safe. If you know him well, you’ll find someone clumsy but well-meaning.</p>
+
+        <a href="#"><h2>History</h2></a>
+        <p>Since he did not die in an accident (his mother Konnie having found them before he ventured out onto a lake), the Piccoli family is a more whole family. LP would prove to be a stabilizing presence in Liam’s life, having recognized his brother was having trouble before he spirals into a full-fledged breakdown in his teens. The two would graduate and end up sticking together into adulthood before LP decides he doesn’t need to be on constant vigilance with his brother.</p>
+
+        <a href="#"><h2>Skills</h2></a>
+        <p>LP would use his knack for computers and learn to code traditionally, becoming a freelance coder.</p>   
+
+        <a href="#"><h2>Gallery</h2></a>
+        <div id="ocgallery2">
+        <div class="item"><a href="https://f2.toyhou.se/file/f2-toyhou-se/images/63973548_89E6upPhdpdOuIw.png" target="_blank"><img src="https://file.garden/aWWU1egoWxmNHEDn/gallery%20icons/rpverse/lp/icons_refs_luigi.jpg"></a>
+        <p>Main Reference</p></div>
+        <div class="item"><a href="https://f2.toyhou.se/file/f2-toyhou-se/images/64017813_WdRavYWhqbxvPzw.png" target="_blank"><img src="https://file.garden/aWWU1egoWxmNHEDn/gallery%20icons/rpverse/lp/icons_refs_luigi2.jpg"></a>
+        <p>Outfit Reference</p></div>
+        <div class="item"><a href="https://f2.toyhou.se/file/f2-toyhou-se/images/53603371_IUZWJn6zwjNxaiw.png" target="_blank"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/53603371_IUZWJn6zwjNxaiw.png"></a>
+        <p>Icon</p></div>
+        <div class="item"><a href="https://file.toyhou.se/images/10271998_dYQSxkS8nIoTYKj.png" target="_blank"><img src="https://file.garden/aWWU1egoWxmNHEDn/gallery%20icons/rpverse/lp/icons_artbyme_luigi.jpg"></a>
+        <p>[BLOOD] 10/27/2018; Swap AU featuring a cyber demon Liam and a human LP</p></div>
+        </div>
+
+        </div>
+    </div>
+
+    </div>
+</main>
+
+  <!-- Side navigation -->
+    <div class="sidenav">
+        <a href="/index.html">Home</a>
+        <a href="/ocs">All OCs</a>
+        <a href="/ocs/rpverse">RPVerse</a>
+        <a href="ocs/rpverse/lp">Main</a>
+    </div>
+
+</body>
+</html>
+
+        <!-- =============================================== -->
+        <!-- SCRIPTS -->
+        <!-- =============================================== -->
+
+<!-- Don't touch this, it makes the table of contents work, as per: https://stackoverflow.com/questions/187619/is-there-a-javascript-solution-to-generating-a-table-of-contents-for-a-page </-->
+<script>
+window.onload = function () {
+    var toc = "";
+    var level = 0;
+
+    document.getElementById("contents").innerHTML =
+        document.getElementById("contents").innerHTML.replace(
+            /<h([\d])>([\s\S]*?)<\/h\1>/gi,
+            function (str, openLevel, innerHtml) {
+                openLevel = parseInt(openLevel);
+
+                if (openLevel > level) {
+                    toc += (new Array(openLevel - level + 1)).join("<ol>");
+                } else if (openLevel < level) {
+                    toc += (new Array(level - openLevel + 1)).join("</ol>");
+                }
+
+                level = openLevel;
+
+                var tempDiv = document.createElement("div");
+                tempDiv.innerHTML = innerHtml;
+                var plainText = tempDiv.textContent || tempDiv.innerText || "";
+
+                var anchor = plainText.trim()
+                    .replace(/\s+/g, "_")
+                    .replace(/[^\w\-]/g, "");
+
+                toc += "<li><a href=\"#" + anchor + "\">" + plainText + "</a></li>";
+
+                return "<h" + openLevel + " id=\"" + anchor + "\">" + innerHtml + "</h" + openLevel + ">";
+            }
+        );
+
+    if (level) {
+        toc += (new Array(level + 1)).join("</ol>");
+    }
+
+    document.getElementById("toc").innerHTML += toc;
+};
+</script>
+
+<script>
+  function opensection(sectionName) {
+  var i;
+  var x = document.getElementsByClassName("section");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(sectionName).style.display = "block";
+}
+</script>

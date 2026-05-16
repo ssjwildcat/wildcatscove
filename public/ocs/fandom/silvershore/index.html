@@ -1,0 +1,164 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Silvershore</title>
+  <link rel="stylesheet" href="../../../css/ocstyle.css">
+  <meta name="description" content="">
+  <link rel="icon" href="/favicon.gif" sizes="any">
+</head>
+
+<body>
+
+<header-component></header-component>
+<header id="header" style="background-image: url('https://images.unsplash.com/photo-1672929682805-8d9c7b5a16d2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></header>
+<main>
+    <div id="container">
+
+    <div class="w3-bar w3-black">
+      <button class="ocbutton"><a href="/ocs/fandom/silvershore/gallery">Gallery</a></button>
+      <button class="ocbutton"><a href="https://unsplash.com/photos/a-sandy-beach-with-waves-coming-in-to-shore-iiXjxLK1txA">Header Credit</a></button>
+    </div>
+
+    <h1>Silvershore</h1>
+
+    <div id="abt" class="section">
+
+        <div class="characterprofile">
+            <div class="charactermain-image" style="background-image: url('https://f2.toyhou.se/file/f2-toyhou-se/images/103064589_zFkYyLlab4HBK0e.png')"></div>
+            <table>
+                <tr>
+                    <th colspan="2"></th>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>Female</td>
+                </tr>
+                <tr>
+                    <td>Pronouns</td>
+                    <td>she/her</td>
+                </tr>
+                <tr>
+                    <td>Orientation</td>
+                    <td>Acearo</td>
+                </tr>
+                <tr>
+                    <td>Rank</td>
+                    <td>former medicine cat, currently loner</td>
+                </tr>
+                <tr>
+                    <td>Clan</td>
+                    <td>formerly Gullclan</td>
+                </tr>
+                <tr>
+                    <td>Profile Credit</td>
+                    <td><a href="https://toyhou.se/jjnostredame">jjnostredame</a></td>
+                </tr>
+                <tr>
+                    <th colspan="2"> </th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="toc"></div>
+        
+        <div id="contents">     
+
+        <a href="#"><h2>Personality</h2></a>
+          <p>Silvershore is a laidback and reserved cat. She likes to help others, seeing it as her mission from Starclan. She doesn’t share a lot about herself, both seeing her past as painful and awkward to share to others. As a result, its rare she opens up to others. She’s very curious and doesn’t seem to mind her exile, as it allows her to travel. She’s a poor fighter and dislikes conflict, instead trying to talk her way out of situations or, failing that, fleeing.</p>
+
+        <a href="#"><h2>History</h2></a>
+          <p>Silvershore was once the medicine cat of Gullclan, a position she primarily chose because she would have no obligations to have a mate. When the clan was taken over by the corrupt Redstar and suffered for it, she received a vision from Starclan. She relayed this vision to him: either he repent his violent ways or the sea would take him. He didn’t believe her and exiled her for her perceived treachery, leaving her apprentice Magnoliapaw the sole medicine cat. That night, she saw a shooting star going north, which she took as a sign that everything would be alright and her place was now to travel, helping cats all over. Since then, she’s been a loner, taking on the role of a traveling medic.</p>
+
+        <a href="#"><h2>Skills</h2></a>
+        <p>Being a medicine cat, Silvershore has knowledge of plants and their medicinal properties as well as general healing knowledge. Even exiled, she retains her connection to her ancestors.</p>  
+
+        <a href="#"><h2>Gullclan</h2></a>
+        <p>Silvershore’s former clan, Gullclan, live along the shore of a key. They primarily eat fish and other small wildlife they can catch on the shore. They are more advanced than the canon clans, able to weave using seagrass, start fires and craft traps to catch fish and crabs.</p>
+        <p>Gullclan shares their key with Heronclan, who live in the interior marshland. The two clans have historically been on friendly terms but since the hostile takeover of Redstar and his band of both like-minded Gullclan cats and rogues, there’s been tension between the two clans. Redstar wants to absorb the other clan into his own and take full control over the key, something both Heronclan and the rebellious half of Gullclan oppose.</p>
+
+        <a href="#"><h2>Trivia</h2></a>
+        <p>Silvershore's name is made up of <em>Silver</em>, denoting a cat with a silver pelt or eyes and <em>-shore</em>, denoting a cat who's an exceptionally good swimmer.</p>
+        <p>She keeps her jewelry as she still considers herself a Gullclan cat.</p>
+        <p>Silvershore’s home clan hails from Florida.</p>
+
+        <a href="#"><h2>Reference</h2></a>
+        <div class="referencepage">
+            <div><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/99270954_wxiXyPAZbyPRz57.png"></div>
+        </div>
+        <br>
+        </div>
+    </div>
+
+    </div>
+</main>
+
+  <!-- Side navigation -->
+    <div class="sidenav">
+        <a href="/index.html">Home</a>
+        <a href="/ocs">All OCs</a>
+        <a href="/ocs/fandom">Fandom</a>
+        <a href="https://artfight.net/character/5831382.silvershore-wc">Attack on Artfight!</a>
+    </div>
+
+</body>
+</html>
+
+        <!-- =============================================== -->
+        <!-- SCRIPTS -->
+        <!-- =============================================== -->
+
+<!-- Don't touch this, it makes the table of contents work, as per: https://stackoverflow.com/questions/187619/is-there-a-javascript-solution-to-generating-a-table-of-contents-for-a-page </-->
+<script>
+window.onload = function () {
+    var toc = "";
+    var level = 0;
+
+    document.getElementById("contents").innerHTML =
+        document.getElementById("contents").innerHTML.replace(
+            /<h([\d])>([\s\S]*?)<\/h\1>/gi,
+            function (str, openLevel, innerHtml) {
+                openLevel = parseInt(openLevel);
+
+                if (openLevel > level) {
+                    toc += (new Array(openLevel - level + 1)).join("<ol>");
+                } else if (openLevel < level) {
+                    toc += (new Array(level - openLevel + 1)).join("</ol>");
+                }
+
+                level = openLevel;
+
+                var tempDiv = document.createElement("div");
+                tempDiv.innerHTML = innerHtml;
+                var plainText = tempDiv.textContent || tempDiv.innerText || "";
+
+                var anchor = plainText.trim()
+                    .replace(/\s+/g, "_")
+                    .replace(/[^\w\-]/g, "");
+
+                toc += "<li><a href=\"#" + anchor + "\">" + plainText + "</a></li>";
+
+                return "<h" + openLevel + " id=\"" + anchor + "\">" + innerHtml + "</h" + openLevel + ">";
+            }
+        );
+
+    if (level) {
+        toc += (new Array(level + 1)).join("</ol>");
+    }
+
+    document.getElementById("toc").innerHTML += toc;
+};
+</script>
+
+<script>
+  function opensection(sectionName) {
+  var i;
+  var x = document.getElementsByClassName("section");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(sectionName).style.display = "block";
+}
+</script>

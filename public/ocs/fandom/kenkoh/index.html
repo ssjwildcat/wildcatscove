@@ -1,0 +1,163 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Son Kenkoh</title>
+  <link rel="stylesheet" href="../../../css/ocstyle.css">
+  <meta name="description" content="">
+  <link rel="icon" href="/favicon.gif" sizes="any">
+</head>
+
+<body>
+
+<header-component></header-component>
+<header id="header" style="background-image: url('https://images.unsplash.com/photo-1598644656788-c77be17dfc56?q=80&w=2102&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></header>
+<main>
+    <div id="container">
+
+    <div class="w3-bar w3-black">
+      <button class="ocbutton" onclick="opensection('abt')">About</button>
+      <button class="ocbutton"><a href="/ocs/fandom/kenkoh/gallery">Gallery</a></button>
+      <button class="ocbutton"><a href="https://unsplash.com/photos/green-trees-under-blue-sky-during-night-time-dyEaBD5uiio">Header Credit</a></button>
+    </div>
+
+    <h1>Son Kenkoh</h1>
+
+    <div id="abt" class="section">
+
+        <div class="characterprofile">
+            <div class="charactermain-image" style="background-image: url('https://f2.toyhou.se/file/f2-toyhou-se/images/67453428_OFtFaepjOaC7C1c.png')"></div>
+            <table>
+                <tr>
+                    <th colspan="2"></th>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <td>Species</td>
+                    <td>Saiyan/human hybrid</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>Pronouns</td>
+                    <td>he/him</td>
+                </tr>
+                <tr>
+                    <td>Orientation</td>
+                    <td>Bisexual</td>
+                </tr>
+                <tr>
+                    <td>Profile</td>
+                    <td><a href="https://toyhou.se/pomello">pomello</a></td>
+                </tr>
+                <tr>
+                    <th colspan="2"> </th>
+                </tr>
+            </table>
+        </div>
+
+        <div id="toc"></div>
+        
+        <div id="contents">     
+          <p>A child of Goku and Chi-Chi that never was, Kenkoh is a member of the Multiversal Travelers, a sister force to the Time Patrol. He somewhat lacks the drive that his father has, seemingly able to coast by talent alone. But he does work hard—just not nearly as much. </p>
+
+        <a href="#"><h2>Personality</h2></a>
+          <p>Kenkoh is nearly upbeat and chipper, always having a nice word for someone. It’s nearly impossible to sour his mood and he tackles most tasks with a vivid enthusiasm. Almost paradoxically, he doesn’t take a lot seriously, sometimes missing the gravity of a situation. He lacks drive and ambition and coasts by on his raw talent. He dislikes confrontation and anything that may spoil a friendship so he tends to be a people-pleaser. However, his sore spot lies in those he considers friends, which can be most people he likes. He is fiercely loyal and will fight tooth and nail for them. </p>
+
+        <a href="#"><h2>History</h2></a>
+          <p>Kenkoh is a part of the Multiversal Travelers, a group that spans the multiverse and is occupied with protecting it and all worlds within it. He is a character that “never was”, being a third child of Goku and Chi-Chi from a destroyed alternate universe. Because his overwhelming talent, he was able to scale the ranks easily and is now sitting comfortably as a senior member of the Dragon World Division. His superiors find his utter lack of drive frustrating but no one can deny he gets whatever job he’s given done.</p>
+          <p>No one bothered to call out his lack of drive until Kaiick fought her way to his station. Once there, she was very loud and very opinionated on her thoughts on him. While Kenkoh hasn’t quite grasped why she is so angry at him, he has decided to humor her for the sake of the friendship. In the end, he has quite enjoyed training with her so maybe she’s onto something. </p>
+
+        <a href="#"><h2>Skills</h2></a>
+        <p>As a Saiyan hybrid, he has an innate sense of ki control. With it, he can fly, use ki in attacks, and sense ki. His Saiyan genes give him zenkai, which gives him a boost in his power after recovering from battle. He also has super strength, agility, speed, durability and endurance.</p>
+        <p>As he still has his tail, he could tranform into an Oozaru under a full moon. He can also transform into a Super Saiyan and Super Saiyan 2. </p>
+        
+        <a href="#"><h2>Trivia</h2></a>
+        <p>Kenkoh’s origin is of my second fan-character, just with some reworks. He was from a (now lost) fanfiction I wrote in 2007 called "Prince's Heritage".</p>
+
+        <a href="#"><h2>Reference</h2></a>
+        <div class="referencepage">
+            <div><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/82064194_Bxecj4KzVYgzTuU.png?1730000011">
+            <p><a href="/ocs/fandom/kenkoh/gallery">More References</a></p></div>
+        </div>
+        <br>
+        </div>
+    </div>
+
+    </div>
+</main>
+
+  <!-- Side navigation -->
+    <div class="sidenav">
+        <a href="/index.html">Home</a>
+        <a href="/ocs">All OCs</a>
+        <a href="/ocs/fandom">Fandom</a>
+        <a href="https://artfight.net/character/2346361.son-kenkoh-dbz">Attack on Artfight!</a>
+    </div>
+
+</body>
+</html>
+
+        <!-- =============================================== -->
+        <!-- SCRIPTS -->
+        <!-- =============================================== -->
+
+<!-- Don't touch this, it makes the table of contents work, as per: https://stackoverflow.com/questions/187619/is-there-a-javascript-solution-to-generating-a-table-of-contents-for-a-page </-->
+<script>
+window.onload = function () {
+    var toc = "";
+    var level = 0;
+
+    document.getElementById("contents").innerHTML =
+        document.getElementById("contents").innerHTML.replace(
+            /<h([\d])>([\s\S]*?)<\/h\1>/gi,
+            function (str, openLevel, innerHtml) {
+                openLevel = parseInt(openLevel);
+
+                if (openLevel > level) {
+                    toc += (new Array(openLevel - level + 1)).join("<ol>");
+                } else if (openLevel < level) {
+                    toc += (new Array(level - openLevel + 1)).join("</ol>");
+                }
+
+                level = openLevel;
+
+                var tempDiv = document.createElement("div");
+                tempDiv.innerHTML = innerHtml;
+                var plainText = tempDiv.textContent || tempDiv.innerText || "";
+
+                var anchor = plainText.trim()
+                    .replace(/\s+/g, "_")
+                    .replace(/[^\w\-]/g, "");
+
+                toc += "<li><a href=\"#" + anchor + "\">" + plainText + "</a></li>";
+
+                return "<h" + openLevel + " id=\"" + anchor + "\">" + innerHtml + "</h" + openLevel + ">";
+            }
+        );
+
+    if (level) {
+        toc += (new Array(level + 1)).join("</ol>");
+    }
+
+    document.getElementById("toc").innerHTML += toc;
+};
+</script>
+
+<script>
+  function opensection(sectionName) {
+  var i;
+  var x = document.getElementsByClassName("section");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(sectionName).style.display = "block";
+}
+</script>
