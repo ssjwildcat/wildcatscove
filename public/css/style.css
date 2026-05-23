@@ -53,6 +53,7 @@ body {
     line-height: 1.2;
     background: var(--background-color);
     background-image: url('https://file.garden/aWWU1egoWxmNHEDn/neocitiesbg2.webp');
+    background-size: cover;
 }
 
 ::selection {
@@ -793,4 +794,10 @@ main h6 {
         padding: 0.5em 1.5em;
         font-size: 0.60rem;
     }
+}
+
+/* CENTERED */
+
+.centered {
+    text-align: center;
 }
