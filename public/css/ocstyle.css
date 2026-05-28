@@ -563,3 +563,9 @@ html, body {margin: 0}
 .pagination li a:hover:not(.active) {
   background-color: #8c73ae;
 }
+
+/* CENTERED */
+
+.centered {
+    text-align: center;
+}

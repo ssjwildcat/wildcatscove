@@ -542,6 +542,8 @@ main h6 {
     border-radius: 10px;
     width: 250px;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ocbutton a {
@@ -554,7 +556,23 @@ main h6 {
     color: white;
 }
 
-/* Header Styles */
+/* CENTERED */
+
+.centered {
+    text-align: center;
+}
+
+/* REFERENCE IMAGES */
+
+  .refimg {
+      flex-wrap: wrap;
+  }
+
+  .refimg img {
+      height: 50%;
+      width: 50%;
+  }
+
 
 /* -------------------------------------------------------- */
 /* ACCESSIBILITY */
@@ -628,15 +646,8 @@ main h6 {
       padding: 15px;
   }
 
-  .images {
-      flex-wrap: wrap;
-  }
-
-  .images img {
-      width: 100%;
-  }
-
   #skip-to-content-link {
       font-size: 1rem;
   }
 }
+
