@@ -32,12 +32,12 @@ function headerHTML() {
 	        <div class="header-title"><img src="https://file.garden/aWWU1egoWxmNHEDn/headerdivider.png"> Wildcat's Cove <img src="https://file.garden/aWWU1egoWxmNHEDn/headerdivider.png"></div>
         
           <div class="header-title">
-          <button class="frutiger-aero-button small"><a href="/index">Home</a></button>
-          <button class="frutiger-aero-button small"><a href="/about/aboutme">About Me</a></button>
-          <button class="frutiger-aero-button small"><a href="/graphics">Graphics</a></button>
-          <button class="frutiger-aero-button small"><a href="/writing">Writing</a></button>
-          <button class="frutiger-aero-button small"><a href="/world">Cosmotalia</a></button>
-          <button class="frutiger-aero-button small"><a href="/ocs">Characters</a></button>
+          <span class="frutiger-aero-button small"><a href="/index">Home</a></span>
+          <span class="frutiger-aero-button small"><a href="/about/aboutme">About Me</a></span>
+          <span class="frutiger-aero-button small"><a href="/graphics">Graphics</a></span>
+          <span class="frutiger-aero-button small"><a href="/writing">Writing</a></span>
+          <span class="frutiger-aero-button small"><a href="/world">Cosmotalia</a></span>
+          <span class="frutiger-aero-button small"><a href="/ocs">Characters</a></span>
           </div>
 
           </div>
