@@ -78,6 +78,8 @@ function headerHTML() {
       <img width="76px" src="/graphics/buttons/hatems.gif">
       <img width="76px" src="/graphics/buttons/internetprivacy.gif">
       <img width="76px" src="/graphics/buttons/thissiteisgay.gif">
+      <img width="76px" src="/graphics/buttons/b-computer.png">
+      <img width="76px" src="/graphics/buttons/getpussy.gif">
       <center><a href="/graphics/buttons">More Buttons</a></center>
       <hr>
 
@@ -87,6 +89,8 @@ function headerHTML() {
       <img width="76px" src="/graphics/stamps/computervaporwave.png">
       <img width="76px" src="/graphics/stamps/sidewalkvaporwave.png">
       <img width="76px" src="/graphics/stamps/streetlightvaporwave.png">
+      <img width="76px" src="/graphics/stamps/dolphinaero.png">
+      <img width="76px" src="/graphics/stamps/tvaesthetic.png">
       <center><a href="/graphics/stamps">More Stamps</a></center>
       <hr>
 
@@ -94,12 +98,14 @@ function headerHTML() {
       <img width="145px" src="/graphics/blinkies/firefox.gif">
       <img src="/graphics/blinkies/cathonor.gif">
       <img src="/graphics/blinkies/internetloser.gif">
+      <img src="/graphics/blinkies/lavalamp.gif">
+      <img src="/graphics/blinkies/netsurfer.webp">
       <center><a href="/graphics/blinkies">More Blinkies</a></center>
       <hr>
 
-      <center><a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/assets/img/linkback.gif" alt="petrapixel"></a>
-      <a href="https://ne0nbandit.neocities.org/" target="_blank"><img src="https://ne0nbandit.github.io/assets/img/btn/mine/nbbanner.png"></a>
-      <a href='https://blinkies.cafe' target='_blank'><img src='https://blinkies.cafe/b/display/blinkiesCafe-badge.gif' alt='blinkies.cafe | make your own blinkies!'></a>
+      <center><a href="https://petrapixel.neocities.org/" target="_blank"><img width="76px" src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/assets/img/linkback.gif" alt="petrapixel"></a>
+      <a href="https://ne0nbandit.neocities.org/" target="_blank"><img width="76px" src="https://ne0nbandit.github.io/assets/img/btn/mine/nbbanner.png"></a>
+      <a href='https://blinkies.cafe' target='_blank'><img width="76px" src='https://blinkies.cafe/b/display/blinkiesCafe-badge.gif' alt='blinkies.cafe | make your own blinkies!'></a>
       <p><a href="/about/links">More Sites</a></p></center>
 
       </aside>
