@@ -52,8 +52,7 @@ function headerHTML() {
 
       <aside class="left-sidebar">
 
-      <div class="centerdiv">
-      <iframe src="https://petracoding.github.io/neocities/widgets/statuscafe?center=1&marquee=0&font-family=Courier New&font-size=15px&color=#110321&linkColor=#3aff61&width=60px&height=100px&username=saturnianwildcat&hideUsername=0" frameborder="0" title="Status.Cafe Status"></iframe>
+      <iframe src="https://petracoding.github.io/neocities/widgets/statuscafe?center=1&marquee=0&font-family=Courier New&font-size=15px&color=#110321&linkColor=#3aff61&width=200px&height=100px&username=saturnianwildcat&hideUsername=0" frameborder="0" title="Status.Cafe Status"></iframe>
       </div>
       <hr>
 
@@ -64,6 +63,16 @@ function headerHTML() {
       Hotlinking is a-ok!</center>
       <hr>
 
+      <div class="results" style="width: 200px;background-color: #8095a2;color: #000;display: block;padding: 10px;border: 1px solid;margin: 0 auto;font-family: 'times';font-size: '15pt';">
+      <p style="margin: 0">This page is protected by a</p>
+      <h1 class="title" style="margin: 0">DOLPHIN</h1>
+      <img class="image" style="max-width: 160px;border: 1px solid" alt="DOLPHIN" src="https://i.ibb.co/zr1qMd7/dolphin.png">
+      <p class="description">There are currently 42 species of dolphins.</p>
+      <small>
+        <a href="https://hekate.neocities.org">Want your own? Visit hekate.neocities.org!</a>
+      </small>
+    </div>
+
       </aside>
 	
 	  
@@ -73,24 +82,23 @@ function headerHTML() {
 
       <aside class="right-sidebar">
 
-      
-      <img width="76px" src="/graphics/buttons/asexuals_now.gif">
-      <img width="76px" src="/graphics/buttons/hatems.gif">
-      <img width="76px" src="/graphics/buttons/internetprivacy.gif">
-      <img width="76px" src="/graphics/buttons/thissiteisgay.gif">
-      <img width="76px" src="/graphics/buttons/b-computer.png">
-      <img width="76px" src="/graphics/buttons/getpussy.gif">
+      <img width="88px" src="/graphics/buttons/asexuals_now.gif">
+      <img width="88px" src="/graphics/buttons/hatems.gif">
+      <img width="88px" src="/graphics/buttons/internetprivacy.gif">
+      <img width="88px" src="/graphics/buttons/thissiteisgay.gif">
+      <img width="88px" src="/graphics/buttons/b-computer.png">
+      <img width="88px" src="/graphics/buttons/getpussy.gif">
       <center><a href="/graphics/buttons">More Buttons</a></center>
       <hr>
 
-      <img width="76px" src="/graphics/stamps/hellovaporwave.png">
-      <img width="76px" src="/graphics/stamps/seasidevaporwave.png">
-      <img width="76px" src="/graphics/stamps/fijivaporwave.png">
-      <img width="76px" src="/graphics/stamps/computervaporwave.png">
-      <img width="76px" src="/graphics/stamps/sidewalkvaporwave.png">
-      <img width="76px" src="/graphics/stamps/streetlightvaporwave.png">
-      <img width="76px" src="/graphics/stamps/dolphinaero.png">
-      <img width="76px" src="/graphics/stamps/tvaesthetic.png">
+      <img width="99px" src="/graphics/stamps/hellovaporwave.png">
+      <img width="99px" src="/graphics/stamps/seasidevaporwave.png">
+      <img width="99px" src="/graphics/stamps/fijivaporwave.png">
+      <img width="99px" src="/graphics/stamps/computervaporwave.png">
+      <img width="99px" src="/graphics/stamps/sidewalkvaporwave.png">
+      <img width="99px" src="/graphics/stamps/streetlightvaporwave.png">
+      <img width="99px" src="/graphics/stamps/dolphinaero.png">
+      <img width="99px" src="/graphics/stamps/tvaesthetic.png">
       <center><a href="/graphics/stamps">More Stamps</a></center>
       <hr>
 
@@ -103,9 +111,10 @@ function headerHTML() {
       <center><a href="/graphics/blinkies">More Blinkies</a></center>
       <hr>
 
-      <center><a href="https://petrapixel.neocities.org/" target="_blank"><img width="76px" src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/assets/img/linkback.gif" alt="petrapixel"></a>
-      <a href="https://ne0nbandit.neocities.org/" target="_blank"><img width="76px" src="https://ne0nbandit.github.io/assets/img/btn/mine/nbbanner.png"></a>
-      <a href='https://blinkies.cafe' target='_blank'><img width="76px" src='https://blinkies.cafe/b/display/blinkiesCafe-badge.gif' alt='blinkies.cafe | make your own blinkies!'></a>
+      <center><a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/assets/img/linkback.gif" alt="petrapixel"></a>
+      <a href="https://ne0nbandit.neocities.org/" target="_blank"><img src="https://ne0nbandit.github.io/assets/img/btn/mine/nbbanner.png"></a>
+      <a href='https://blinkies.cafe' target='_blank'><img src='https://blinkies.cafe/b/display/blinkiesCafe-badge.gif' alt='blinkies.cafe | make your own blinkies!'></a>
+      <a href="https://hekate.neocities.org/" target="_blank"><img src="/graphics/sitebuttons/hekate.png alt="hekate Neocities"></a>
       <p><a href="/about/links">More Sites</a></p></center>
 
       </aside>
@@ -125,7 +134,8 @@ function footerHTML() {
       <!-- =============================================== -->
 
       <footer>
-            <div>© 2026 SaturnianWildcat // <a href="https://neocities.org/site/wildcatscove">follow me on neocities!</a> // <a href="/sitemap">sitemap</a></div>
+            <div>© 2026 SaturnianWildcat // 
+            <a href="https://neocities.org/site/wildcatscove"><img src="/graphics/buttons/neocities2.gif"></a> // <a href="https://wildcatscove.nekoweb.org/"><img src="/graphics/buttons/nekoweb.webp"></a> // <a href="/sitemap">sitemap</a></div>
       </footer>`;
 }
 
@@ -135,7 +145,7 @@ function giveActiveClassToCurrentPage() {
   const els = document.querySelectorAll("nav a");
   [...els].forEach((el) => {
     const href = el.getAttribute("href").replace(".html", "").replace("#", "");
-    const pathname = window.location.pathname.replace("/public/", "");
+    const pathname = window.location.pathname.replace("/", "");
     const currentHref = window.location.href.replace(".html", "") + "END";
 
 	/* Homepage */

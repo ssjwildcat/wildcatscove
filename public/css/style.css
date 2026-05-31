@@ -15,7 +15,7 @@
     /* Text Colors */
     --text-color: #110321;
     --sidebar-text-color: #021013;
-    --link-color: #3aff61;
+    --link-color: #9be6ff;
     --link-color-hover: #c2ffd2;
 
     /* Text: */
@@ -29,7 +29,7 @@
     --border: 2px solid rgb(24, 1, 19);
     --round-borders: 5px;
     --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
-    --sidebar-width: 200px;
+    --sidebar-width: 250px;
 }
 
 /* -------------------------------------------------------- */
@@ -89,7 +89,7 @@ a:focus {
 /* -------------------------------------------------------- */
 
 .layout {
-    width: 1200px;
+    width: 1300px;
     display: grid;
     grid-gap: var(--margin);
     grid-template: "header header header" auto "leftSidebar main rightSidebar" auto "footer footer footer" auto / var(--sidebar-width) auto var(--sidebar-width);
@@ -147,6 +147,7 @@ aside {
     background: var(--sidebar-background-color);
     padding: var(--padding);
     color: var(--sidebar-text-color);
+    text-align: center;
 }
 
 .left-sidebar {
@@ -476,7 +477,6 @@ main h6 {
     overflow: scroll;
     height: 200px;
     font-size: 14px;
-    text-align: center;
     box-shadow: inset 0 0 10px rgb(116, 181, 206);
     padding: 10px;
 }
@@ -696,11 +696,15 @@ main h6 {
   font-size: 1.125rem;
 }
 
-/* Center */
+/* WEB GUARDIAN */
 
-.centerdiv {
-    display: block;
-    text-align: center;
+.dolphin {
+  display:inline-block;
+  text-align: center;
+  width:50px;
+  height:auto;
+  top:430px;
+  padding:2px;
 }
 
 
