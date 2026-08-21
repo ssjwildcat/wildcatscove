@@ -145,24 +145,12 @@ header {
     justify-content: space-evenly;
 }
 
-.drpdwn {
-    position: relative;
-}
-
 /* -------------------------------------------------------- */
 /* SIDEBARS */
 /* -------------------------------------------------------- */
 
 aside {
     grid-area: aside;
-    border: var(--border);
-    border-radius: var(--round-borders);
-    box-shadow: var(--box-shadow);
-    overflow: hidden;
-    background: var(--sidebar-background-color);
-    padding: var(--padding);
-    color: var(--sidebar-text-color);
-    text-align: center;
 }
 
 .left-sidebar {
@@ -190,6 +178,18 @@ aside {
 
 .sidebar-section > *:not(p):not(ul):not(ol):not(blockquote) {
     margin-top: 10px;
+}
+
+.sidebar-segment {
+    border: var(--border);
+    border-radius: var(--round-borders);
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+    background: var(--sidebar-background-color);
+    padding: var(--padding);
+    color: var(--sidebar-text-color);
+    text-align: center;
+    margin: 5px;
 }
 
 /* Sidebar Blockquote: */
