@@ -111,15 +111,16 @@ main {
 
 header {
     grid-area: header;
-    font-size: 1.2em;
-    border: var(--border);
-    border-radius: var(--round-borders);
-    box-shadow: var(--box-shadow);
-    background: var(--content-background-color);
 }
 
 .header-content {
     padding: var(--padding);
+    font-size: 1em;
+    border: var(--border);
+    border-radius: var(--round-borders);
+    box-shadow: var(--box-shadow);
+    background: var(--content-background-color);
+    margin: 1em;
 }
 
 .header-title {
@@ -132,6 +133,20 @@ header {
 .header-image img {
     width: 100%;
     height: auto;
+}
+
+.header-nav {
+    font-family: var(--heading-font);
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.drpdwn {
+    position: relative;
 }
 
 /* -------------------------------------------------------- */
@@ -535,6 +550,16 @@ main h6 {
     object-fit: none;
 }
 
+
+
+/* Border */
+
+.border {
+    border-style: dotted;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 /* Stamps and Buttons */
 
 .stamps {
@@ -695,19 +720,6 @@ main h6 {
   padding: 1em 3em;
   font-size: 1.125rem;
 }
-
-/* WEB GUARDIAN */
-
-.dolphin {
-  display:inline-block;
-  text-align: center;
-  width:50px;
-  height:auto;
-  top:430px;
-  padding:2px;
-}
-
-
 /* -------------------------------------------------------- */
 /* ACCESSIBILITY */
 /* -------------------------------------------------------- */
@@ -797,6 +809,7 @@ main h6 {
     .frutiger-aero-button.small {
         padding: 0.5em 1.5em;
         font-size: 0.60rem;
+        margin-bottom: 1px;
     }
 }
 
