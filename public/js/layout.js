@@ -79,42 +79,42 @@ function headerHTML() {
       <aside class="right-sidebar">
 
       <div class="sidebar-segment">
-      <img width="88px" src="/public/graphics/buttons/asexuals_now.gif">
-      <img width="88px" src="/public/graphics/buttons/hatems.gif">
-      <img width="88px" src="/public/graphics/buttons/internetprivacy.gif">
-      <img width="88px" src="/public/graphics/buttons/thissiteisgay.gif">
-      <img width="88px" src="/public/graphics/buttons/b-computer.png">
-      <img width="88px" src="/public/graphics/buttons/getpussy.gif">
-      <center><a href="/public/graphics/buttons">More Buttons</a></center>
+      <img width="88px" src="/graphics/buttons/asexuals_now.gif">
+      <img width="88px" src="/graphics/buttons/hatems.gif">
+      <img width="88px" src="/graphics/buttons/internetprivacy.gif">
+      <img width="88px" src="/graphics/buttons/thissiteisgay.gif">
+      <img width="88px" src="/graphics/buttons/b-computer.png">
+      <img width="88px" src="/graphics/buttons/getpussy.gif">
+      <center><a href="/graphics/buttons">More Buttons</a></center>
       </div>
 
       <div class="sidebar-segment">
-      <img width="96px" src="/public/graphics/stamps/hellovaporwave.png">
-      <img width="96px" src="/public/graphics/stamps/seasidevaporwave.png">
-      <img width="96px" src="/public/graphics/stamps/fijivaporwave.png">
-      <img width="96px" src="/public/graphics/stamps/computervaporwave.png">
-      <img width="96px" src="/public/graphics/stamps/sidewalkvaporwave.png">
-      <img width="96px" src="/public/graphics/stamps/streetlightvaporwave.png">
-      <img width="96px" src="/public/graphics/stamps/dolphinaero.png">
-      <img width="96px" src="/public/graphics/stamps/tvaesthetic.png">
-      <center><a href="/public/graphics/stamps">More Stamps</a></center>
+      <img width="96px" src="/graphics/stamps/hellovaporwave.png">
+      <img width="96px" src="/graphics/stamps/seasidevaporwave.png">
+      <img width="96px" src="/graphics/stamps/fijivaporwave.png">
+      <img width="96px" src="/graphics/stamps/computervaporwave.png">
+      <img width="96px" src="/graphics/stamps/sidewalkvaporwave.png">
+      <img width="96px" src="/graphics/stamps/streetlightvaporwave.png">
+      <img width="96px" src="/graphics/stamps/dolphinaero.png">
+      <img width="96px" src="/graphics/stamps/tvaesthetic.png">
+      <center><a href="/graphics/stamps">More Stamps</a></center>
       </div>
 
       <div class="sidebar-segment">
-      <img src="/public/graphics/blinkies/iheartdragons.gif">
-      <img width="145px" src="/public/graphics/blinkies/firefox.gif">
-      <img src="/public/graphics/blinkies/cathonor.gif">
-      <img src="/public/graphics/blinkies/internetloser.gif">
-      <img src="/public/graphics/blinkies/lavalamp.gif">
-      <img src="/public/graphics/blinkies/netsurfer.webp">
-      <center><a href="/public/graphics/blinkies">More Blinkies</a></center>
+      <img src="/graphics/blinkies/iheartdragons.gif">
+      <img width="145px" src="/graphics/blinkies/firefox.gif">
+      <img src="/graphics/blinkies/cathonor.gif">
+      <img src="/graphics/blinkies/internetloser.gif">
+      <img src="/graphics/blinkies/lavalamp.gif">
+      <img src="/graphics/blinkies/netsurfer.webp">
+      <center><a href="/graphics/blinkies">More Blinkies</a></center>
       </div>
 
       <div class="sidebar-segment">
       <center><a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/assets/img/linkback.gif" alt="petrapixel"></a>
       <a href="https://ne0nbandit.neocities.org/" target="_blank"><img src="https://ne0nbandit.github.io/assets/img/btn/mine/nbbanner.png"></a>
       <a href='https://blinkies.cafe' target='_blank'><img src='https://blinkies.cafe/b/display/blinkiesCafe-badge.gif' alt='blinkies.cafe | make your own blinkies!'></a>
-      <a href="https://hekate.neocities.org/" target="_blank"><img src="/public/graphics/sitebuttons/hekate.png" alt="hekate Neocities"></a>
+      <a href="https://hekate.neocities.org/" target="_blank"><img src="/graphics/sitebuttons/hekate.png" alt="hekate Neocities"></a>
       <p><a href="/about/links">More Sites</a></p></center>
       </div>
 
@@ -136,7 +136,7 @@ function footerHTML() {
 
       <footer>
             <div>© 2026 SaturnianWildcat // 
-            <a href="https://neocities.org/site/wildcatscove"><img src="/public/graphics/buttons/neocities2.gif"></a> // <a href="https://wildcatscove.nekoweb.org/"><img src="/public/graphics/buttons/nekoweb.webp"></a> // <a href="/sitemap">sitemap</a></div>
+            <a href="https://neocities.org/site/wildcatscove"><img src="/graphics/buttons/neocities2.gif"></a> // <a href="https://wildcatscove.nekoweb.org/"><img src="/graphics/buttons/nekoweb.webp"></a> // <a href="/sitemap">sitemap</a></div>
       </footer>`;
 }
 
