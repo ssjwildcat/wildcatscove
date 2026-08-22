@@ -568,6 +568,11 @@ main h6 {
 
 .stamps img {
     display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.stamps img:hover {
+    transform: scale(1.1);
 }
 
 .stamps a {
@@ -720,6 +725,15 @@ main h6 {
   padding: 1em 3em;
   font-size: 1.125rem;
 }
+
+/* Borders */
+.border-section {
+    border-style: dotted;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
+
 /* -------------------------------------------------------- */
 /* ACCESSIBILITY */
 /* -------------------------------------------------------- */
@@ -811,6 +825,7 @@ main h6 {
         font-size: 0.60rem;
         margin-bottom: 1px;
     }
+    
 }
 
 /* CENTERED */
