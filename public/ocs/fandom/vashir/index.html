@@ -7,7 +7,7 @@
   <title>Vashir</title>
   <link rel="stylesheet" href="../../../css/ocstyle.css">
   <meta name="description" content="">
-  <link rel="icon" href="/favicon.gif" sizes="any">
+  <link rel="icon" href="/public/graphics/favicons/vashir.png" sizes="any">
 </head>
 
 <body>
@@ -17,12 +17,12 @@
 <main>
     <div id="container">
 
-    <div class="w3-bar w3-black">
+    <div class="button-nav">
       <button class="ocbutton" onclick="opensection('abt')">About</button>
       <button class="ocbutton" onclick="opensection('relation')">Relationships</button>
       <button class="ocbutton" onclick="opensection('extra')">Trivia & Extras</button>
+      <button class="ocbutton" onclick="opensection('credit')">Credits</button>
       <button class="ocbutton"><a href="/ocs/fandom/vashir/gallery">Gallery</a></button>
-      <button class="ocbutton"><a href="https://unsplash.com/photos/photo-of-lava-flowing-on-land-Aduh0KXCI1w">Header Credit</a></button>
     </div>
 
     <h1>Vashir</h1>
@@ -30,6 +30,9 @@
     <div id="abt" class="section">
 
         <div class="characterprofile">
+
+            <img src="/public/img/overlay/moonandstar.png" class="overlay">
+
             <div class="charactermain-image" style="background-image: url('https://f2.toyhou.se/file/f2-toyhou-se/images/113982610_1blkkkb5NH7tu0h.png')"></div>
             <table>
                 <tr>
@@ -68,7 +71,18 @@
                     <td>Nerevarine</td>
                 </tr>
                 <tr>
-                    <th colspan="2"> </th>
+                    <th colspan="2">
+                        <div class="stamps-oc">
+                            <img width="135px" src="/graphics/blinkies/nerevarine.webp">
+                            <img width="135px" src="/graphics/blinkies/thetower.gif">
+                            <img width="135px" src="/graphics/blinkies/cursebearer.gif">
+                            <img width="135px" src="/graphics/blinkies/willthispass.webp">
+                            <img src="/graphics/stamps/morrowind.png">
+                            <img src="/graphics/stamps/knife.png">
+                            <img src="/graphics/stamps/nightmares.gif">
+                            <img src="/graphics/stamps/ember.webp">
+                        </div>
+                    </th>
                 </tr>
             </table>
         </div>
@@ -192,6 +206,16 @@
         </div>
         </div>
 
+        <div id="credit" class="section" style="display: none;">
+            <h2>Credits</h2>
+            <p><a href="https://unsplash.com/photos/photo-of-lava-flowing-on-land-Aduh0KXCI1w ">Header</a></p>
+            <p><a href="https://www.deviantart.com/dokterdume/art/Morrowind-Moon-and-Star-114825230">Profile Icon</a>
+            <p><a href="https://unsplash.com/photos/red-and-blue-moon-illustration-KmwfDJAtTJc">Sidebar Photo 1</a></p>
+            <p><a href="https://unsplash.com/photos/three-different-types-of-decorative-items-on-a-table-wm7fV6Y8B5Y">Sidebar Photo 2</a></p>
+            <p><a href="https://unsplash.com/photos/a-red-and-black-photo-of-a-volcano-VeZkIyAlOAk ">Sidebar Photo 3</a></p>
+            <p><a href="https://blinkie.wiki/">Tower Blinkie</a></p>
+        </div>
+
     </div>
 </main>
 
@@ -201,6 +225,18 @@
         <a href="/ocs">All OCs</a>
         <a href="/ocs/fandom">Fandom</a>
         <a href="https://artfight.net/character/740254.vashir-tes">Attack on Artfight!</a>
+
+        <div class="photo-container">
+            <img src="https://images.unsplash.com/photo-1615274330409-75fe3375c998?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </div>
+
+        <div class="photo-container">
+            <img src="https://images.unsplash.com/photo-1702287721762-a0b2dc0f0e70?q=80&w=685&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </div>
+
+        <div class="photo-container">
+            <img src="https://images.unsplash.com/photo-1672526220243-467bec7bbaf7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </div>
     </div>
 
 </body>
@@ -262,3 +298,22 @@ window.onload = function () {
   document.getElementById(sectionName).style.display = "block";
 }
 </script>
+
+<!--CREDITS
+
+Base Layout edited from: https://44x50.neocities.org/
+Header: https://unsplash.com/photos/photo-of-lava-flowing-on-land-Aduh0KXCI1w
+Profile Icon: https://www.deviantart.com/dokterdume/art/Morrowind-Moon-and-Star-114825230 
+Sidebar Photo 1: https://unsplash.com/photos/red-and-blue-moon-illustration-KmwfDJAtTJc
+Sidebar Photo 2: https://unsplash.com/photos/three-different-types-of-decorative-items-on-a-table-wm7fV6Y8B5Y
+Sidebar Photo 3: https://unsplash.com/photos/a-red-and-black-photo-of-a-volcano-VeZkIyAlOAk 
+Nerevarine Blinkie: https://www.tumblr.com/numbpill/785023608110088192/part-3-to-the-blinkie-dump-of-the-blinkies-that
+Tower Blinkie: https://blinkie.wiki/
+Curse Bearer Blinkie: created using https://blinkies.cafe/ 
+Will This Pass Blinkie: https://www.tumblr.com/graphicdesignevident/801248050922340352/%E1%B5%8E%E1%B5%8E
+Morrowind Stamp: https://replica004.tumblr.com/post/165048797934
+Knife Enthusiast Stamp: https://www.deviantart.com/sharqbait/art/Knife-Enthusiast-Stamp-605021148
+Nightmares Stamp: https://www.deviantart.com/lovenightmaresparkle/art/Nightmare-stamp-F2U-684204142
+Embers Stamp: https://www.tumblr.com/i-collect-shiny-stuff/786339846996279296/46-unsorted
+
+-->

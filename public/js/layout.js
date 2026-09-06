@@ -65,7 +65,7 @@ function headerHTML() {
 
       <div class="sidebar-segment">
       <h3>Last Update</h4>
-      <p><b>08/21/2026:</b> Long time no see! I lost motivation for a while there but now I'm back with some tweaks, specifically to the sidebars and the main About page! I'm going to be tweaking everything and then theming the site differently once that's done. Stay tuned!</p>
+      <p>09/06/2026: Been tweaking OC pages now, with the most complete overhaul going to <a href="/ocs/fandom/vashir">Vashir and <a href="/ocs/fandom/vashir/gallery">his gallery page!</a> Also minor tweaks to the <a href="/about/credits">credits</a> and <a href="/about/links">links</a>pages.</p>
       <a href="/changelog">All Updates</a>
       </div>
 
