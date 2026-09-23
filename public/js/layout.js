@@ -65,7 +65,7 @@ function headerHTML() {
 
       <div class="sidebar-segment">
       <h3>Last Update</h4>
-      <p>09/06/2026: Been tweaking OC pages now, with the most complete overhaul going to <a href="/ocs/fandom/vashir">Vashir and <a href="/ocs/fandom/vashir/gallery">his gallery page!</a> Also minor tweaks to the <a href="/about/credits">credits</a> and <a href="/about/links">links</a>pages.</p>
+      <p>Another big character page update, this time with <a href=/ocs/rpverse/curse">Curse!</a></p>
       <a href="/changelog">All Updates</a>
       </div>
 

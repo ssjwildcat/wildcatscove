@@ -17,12 +17,12 @@
 <main>
     <div id="container">
 
-    <div class="w3-bar w3-black">
+    <div class="button-nav">
       <button class="ocbutton" onclick="opensection('abt')">About</button>
       <button class="ocbutton" onclick="opensection('relation')">Relationships</button>
       <button class="ocbutton" onclick="opensection('extra')">Trivia & Extras</button>
+      <button class="ocbutton" onclick="opensection('credit')">Credits</button>
       <button class="ocbutton"><a href="/ocs/rpverse/curse/gallery">Gallery</a></button>
-      <button class="ocbutton"><a href="https://unsplash.com/photos/a-black-background-with-red-and-blue-lines-8P9S77ObyeI">Header Credit</a></button>
     </div>
 
     <h1>Emile "Curse" Xavier</h1>
@@ -30,6 +30,9 @@
     <div id="abt" class="section">
 
         <div class="characterprofile">
+
+            <img src="/public/img/overlay/controller.png" class="overlay">
+
             <div class="charactermain-image" style="background-image: url('https://f2.toyhou.se/file/f2-toyhou-se/images/113984612_5eOVZKMScEUBrZt.png')"></div>
             <table>
                 <tr>
@@ -37,7 +40,7 @@
                 </tr>
                 <tr>
                     <td>Age</td>
-                    <td>30</td>
+                    <td>35</td>
                 </tr>
                 <tr>
                     <td>Birthday</td>
@@ -60,7 +63,18 @@
                     <td>Heterosexual</td>
                 </tr>
                 <tr>
-                    <th colspan="2"> </th>
+                    <th colspan="2"> 
+                        <div class="stamps-oc">
+                            <img width="135px" src="/graphics/blinkies/videogames.gif">
+                            <img width="135px" src="/graphics/blinkies/ocdhottie.gif">
+                            <img width="135px" src="/graphics/blinkies/gamecube.gif">
+                            <img width="135px" src="/graphics/blinkies/dork.gif">
+                            <img src="/graphics/stamps/sweettooth.gif">
+                            <img src="/graphics/stamps/transman.png">
+                            <img src="/stamps/glowinthedark.gif">
+                            <img src="/graphics/stamps/gummyworms.png">
+                        </div>
+                    </th>
                 </tr>
             </table>
         </div>
@@ -161,6 +175,23 @@
         </div>
         </div>
 
+        <div id="credit" class="section" style="display: none;">
+            <h2>Credits</h2>
+            <p><a href="https://unsplash.com/photos/a-black-background-with-red-and-blue-lines-8P9S77ObyeI">Header</a></p>
+            <p><a href="https://www.tumblr.com/logos---pngs/777345576783183872/various-green-and-see-through-plastic-electronic">Profile Icon</a></p>
+            <p><a href="https://unsplash.com/photos/green-and-white-circuit-board-mbXEkW5ZyBQ">Sidebar Photo 1</a></p> 
+            <p><a href="https://unsplash.com/photos/a-group-of-colorful-lollipops-in-a-shopping-cart-8ei70tF6wBM">Sidebar Photo 2</a></p>
+            <p><a href="https://unsplash.com/photos/black-and-yellow-computer-keyboard-m_RCcL80fag">Sidebar Photo 3</a></p>
+            <p><a href="https://baconspider.neocities.org/blinkies">Video Games Blinkie</a></p>
+            <p><a href="https://www.deviantart.com/radiotrophic/art/OCD-HOTTIE-blinkie-F2U-1080287614">OCD Hottie Blinkie</a></p>
+            <p><a href="https://blinkie.wiki/">Gamecube Blinkie</a></p>
+            <p><a href="https://web.archive.org/web/20030608190500/http://kathrynskitchentable.com/goodies.htm">Dork Blinkie</a></p>
+            <p><a href="https://www.deviantart.com/senkou/art/Sweet-Tooth-40259172">Sweet Tooth Stamp</a></p>
+            <p><a href="https://www.deviantart.com/iceofwaterflock/art/Trans-Man-752081171">Trans Man Stamp</a></p>
+            <p><a href="https://www.deviantart.com/fantasystockavatars/art/Stamp%3A-Glows-in-the-Dark-105208752">Glow in the Dark Stamp</a></p>
+            <p><a href="https://www.deviantart.com/weapons-expert-cool/art/Gummy-Worms-Stamp-416658869">Gummy Worms Stamp</a></p>
+        </div>
+
 </main>
 
   <!-- Side navigation -->
@@ -169,6 +200,19 @@
         <a href="/ocs">All OCs</a>
         <a href="/ocs/rpverse">RPverse</a>
         <a href="https://artfight.net/character/424971.curse-xavier">Attack on Artfight!</a>
+
+        <div class="photo-container">
+            <img src="https://images.unsplash.com/photo-1555589228-135c25ae8cf5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </div>
+
+        <div class="photo-container">
+            <img src="https://images.unsplash.com/photo-1670434436165-e580e8dcffb0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </div>
+
+        <div class="photo-container">
+            <img src="https://images.unsplash.com/photo-1631155989170-5b1d86e13cef?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </div>
+
     </div>
 
 </body>
@@ -230,3 +274,22 @@ window.onload = function () {
   document.getElementById(sectionName).style.display = "block";
 }
 </script>
+
+<!--CREDITS
+
+Base Layout edited from: https://44x50.neocities.org/
+Header: https://unsplash.com/photos/a-black-background-with-red-and-blue-lines-8P9S77ObyeI
+Profile Icon: https://www.tumblr.com/logos---pngs/777345576783183872/various-green-and-see-through-plastic-electronic
+Sidebar Photo 1: https://unsplash.com/photos/green-and-white-circuit-board-mbXEkW5ZyBQ
+Sidebar Photo 2: https://unsplash.com/photos/a-group-of-colorful-lollipops-in-a-shopping-cart-8ei70tF6wBM
+Sidebar Photo 3: https://unsplash.com/photos/black-and-yellow-computer-keyboard-m_RCcL80fag
+Video Games Blinkie: https://baconspider.neocities.org/blinkies
+OCD Hottie Blinkie: https://www.deviantart.com/radiotrophic/art/OCD-HOTTIE-blinkie-F2U-1080287614
+Gamecube Blinkie: https://blinkie.wiki/
+Dork Blinkie: https://web.archive.org/web/20030608190500/http://kathrynskitchentable.com/goodies.htm
+Sweet Tooth Stamp: https://www.deviantart.com/senkou/art/Sweet-Tooth-40259172
+Trans Man Stamp: https://www.deviantart.com/iceofwaterflock/art/Trans-Man-752081171
+Glow in the Dark Stamp: https://www.deviantart.com/fantasystockavatars/art/Stamp%3A-Glows-in-the-Dark-105208752
+Gummy Worms Stamp: https://www.deviantart.com/weapons-expert-cool/art/Gummy-Worms-Stamp-416658869
+
+-->

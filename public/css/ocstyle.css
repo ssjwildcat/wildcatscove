@@ -285,7 +285,7 @@ html, body
             }
 
 
-            @media screen and (max-width: 1350px) {
+            @media screen and (max-width: 1600px) {
             .sidenav {
             height: 40px;
             width: 100%; /* Set the width of the sidebar */
@@ -615,8 +615,8 @@ html, body
 .overlay {
     position: absolute;
     z-index: 999;
-    right: -16px;
-    top: -10px;
+    right: -40px;
+    top: -35px;
 }
 
 /* Responsive styles */
