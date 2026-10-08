@@ -65,7 +65,7 @@ function headerHTML() {
 
       <div class="sidebar-segment">
       <h3>Last Update</h4>
-      <p>10/07/2026: Today, lots of updates for credits in the source code along with the overhaul of <a href="/ocs/noxalle/jericho">Jericho</a>'s page and gallery and minor tweaks to the homepage!</p><p>10/07/2026: Today, lots of updates for credits in the source code along with the overhaul of <a href="/ocs/noxalle/jericho">Jericho</a>'s page and gallery!</p>
+      <p>10/07/2026: Today, lots of updates for credits in the source code along with the overhaul of <a href="/ocs/noxalle/jericho">Jericho</a>'s page and gallery and minor tweaks to the homepage!</p>
       <a href="/changelog">All Updates</a>
       </div>
 
