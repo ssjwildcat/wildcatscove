@@ -17,12 +17,12 @@
 <main>
     <div id="container">
 
-    <div class="w3-bar w3-black">
+    <div class="button-nav">
       <button class="ocbutton" onclick="opensection('abt')">About</button>
       <button class="ocbutton" onclick="opensection('relation')">Relationships</button>
       <button class="ocbutton" onclick="opensection('extra')">Trivia & Extras</button>
+      <button class="ocbutton" onclick="opensection('credit')">Credits</button>
       <button class="ocbutton"><a href="/ocs/noxalle/jericho/gallery">Gallery</a></button>
-      <button class="ocbutton"><a href="https://unsplash.com/photos/long-exposure-photography-of-stars-mwWJul4WkqU">Header Credit</a></button>
     </div>
 
     <h1>Jericho</h1>
@@ -30,6 +30,9 @@
     <div id="abt" class="section">
 
         <div class="characterprofile">
+
+            <img src="/public/img/overlay/ufo.png" class="overlay">
+
             <div class="charactermain-image" style="background-image: url('https://f2.toyhou.se/file/f2-toyhou-se/images/27506599_Dr5oOSMG7TpUMQB.png')"></div>
             <table>
                 <tr>
@@ -62,8 +65,15 @@
                 <tr>
                     <th colspan="2"> 
                         <div class="stamps-oc">
-                            <img width="135px" src="/graphics/blinkies/wanttobelieve.webp">
-                            <img width="135px" src="/graphics/blinkies/skycolor.webp">
+                            <img width="135px" src="/public/graphics/blinkies/wanttobelieve.webp">
+                            <img width="135px" src="/public/graphics/blinkies/skycolor.webp">
+                            <img width="135px" src="/public/graphics/blinkies/whichway.gif">
+                            <img width="135px" src="/public/graphics/blinkies/moo.gif">
+                            <img src="/public/graphics/stamps/pluto.jpg">
+                            <img width="100px" src="/public/graphics/stamps/desert.png">
+                            <img width="100px" src="/public/graphics/stamps/space.png">
+                            <img src="/public/graphics/stamps/roswell.png">
+                            <img>
                         </div>
                     </th>
                 </tr>
@@ -130,6 +140,12 @@
         </div>
         </div>
 
+        <div id="credit" class="section" style="display: none;">
+            <div id="contents">
+                <h2>Credits</h2>
+            </div>
+        </div>
+
     </div>
 </main>
 
@@ -139,6 +155,18 @@
         <a href="/ocs">All OCs</a>
         <a href="/ocs/noxalle">Noxalle</a>
         <a href="https://artfight.net/character/812910.jericho">Attack on Artfight!</a>
+
+        <div class="photo-container">
+            <img src="https://images.unsplash.com/photo-1756674285223-89faa7f4983f?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </div>
+
+        <div class="photo-container">
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </div>
+
+        <div class="photo-container">
+            <img src="https://images.unsplash.com/photo-1654450706032-46e2a14d6c91?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+        </div>
     </div>
 
 </body>
@@ -203,7 +231,18 @@ window.onload = function () {
 
 <!--CREDITS
 
+Base Layout edited from: https://44x50.neocities.org/
+Header: https://unsplash.com/photos/long-exposure-photography-of-stars-mwWJul4WkqU
+UFO Overlay: https://www.tumblr.com/iconsfm/811962429169926144/your-snoopy-icons-are-so-cute-do-you-have-any
+Sidebar Photo 1: https://unsplash.com/photos/route-66-sign-on-a-yellow-pole-LjZm_xdiouk
+Sidebar Photo 2: https://unsplash.com/photos/photo-of-outer-space-Q1p7bh3SHj8
+Sidebar Photo 3: https://unsplash.com/photos/a-sign-that-says-the-truth-is-out-there-NodE_jxsjp0
 I Want to Believe Blinkie: https://www.tumblr.com/numbpill/797427409561501696/spoooky-tiem-blinkies-pt-1-since-halloween-is
 Sky Color Blinkie: https://www.tumblr.com/plasticscollection/808947003364147200/alien-blinkies
+Which Way to Area 51 Blinkie: https://web.archive.org/web/20161215052244/http://kimbers.bravepages.com/blinkies/mine.html
+In Space No One Can Hear You Moo Blinkie: https://web.archive.org/web/20061024064030/http://www.btinternet.com/%7Eandrew.e.roberts/blinkie/blinkie.htm
+Pluto Stamp: https://blinkie.wiki/
+Desert Stamp: https://www.tumblr.com/zitrex-x/788956367622995968/cowboy-desert-stamps
+Roswell Stamp: made by me
 
 -->

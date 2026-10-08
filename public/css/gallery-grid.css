@@ -77,7 +77,7 @@
 :root {
     --nav-width: 40px;
     --link-color: white;
-    --link-hover-color: #4CB9AD;
+    --link-hover-color: #734aed;
 }
 :root:has(.lb-open) {
     overflow: hidden;
@@ -116,8 +116,8 @@ body {
 
     background: linear-gradient(
         180deg,
-        rgba(0, 167, 189, 0.3) 0%,
-        rgba(12, 105, 51, 0.3) 100%
+        rgba(145, 0, 189, 0.3) 0%,
+        rgba(105, 12, 83, 0.3) 100%
     );
     backdrop-filter: blur(5px);
 
@@ -177,16 +177,16 @@ body {
     height: 50px;
     width: 50px;
 
-    color: rgb(85, 168, 85);
+    color: rgb(107, 85, 168);
     
     font-size: 20px;
     background: linear-gradient(
         180deg,
-        rgba(0, 52, 73, 0.767) 0%,
-        rgba(1, 32, 30, 0.7) 100%
+        rgba(145, 0, 189, 0.3) 0%,
+        rgba(105, 12, 83, 0.3) 100%
     );
     margin: 5px;
-    border: 1px solid rgb(48, 130, 143);
+    border: 1px solid rgb(83, 48, 143);
     border-radius: 10px;
 }
 #lb_smallExitButton:before {
@@ -204,10 +204,10 @@ body {
     box-sizing: border-box;
     background: linear-gradient(
         180deg,
-        rgba(0, 52, 73, 0.767) 0%,
-        rgba(1, 32, 30, 0.7) 100%
+        rgba(145, 0, 189, 0.3) 0%,
+        rgba(105, 12, 83, 0.3) 100%
     );
-    border: 1px solid rgb(48, 130, 143);
+    border: 1px solid rgb(83, 48, 143);
     box-shadow: inset 0px 0px 5px rgba(65, 74, 75, 0.8);
 }
 #lb_image {
@@ -237,40 +237,40 @@ body {
     gap: 5px;
     z-index: 1;
 
-    color: #4CB9AD;
+    color: #734aed;
     background: linear-gradient(
         180deg,
-        rgba(1, 53, 73, 0.7) 0%,
-        rgba(27, 75, 72, 0.7) 80%,
-        rgba(20, 100, 95, 0.7) 100%
+        rgba(73, 1, 71, 0.7) 0%,
+        rgba(75, 27, 67, 0.7) 80%,
+        rgba(100, 20, 55, 0.7) 100%
     );
     margin: 0 auto;
     padding: 1em 1em;
 
     box-sizing: border-box;
 
-    border: 1px ridge rgb(37, 207, 170);
+    border: 1px ridge rgb(108, 37, 207);
     border-radius: 10px;
-    box-shadow: inset 0px -5px 10px rgb(3, 96, 112);
+    box-shadow: inset 0px -5px 10px rgb(92, 3, 112);
 }
 #lb_desc {
     padding: 0;
     margin: 0;
     line-height: 1.3rem;
-    color: #4CB9AD;
+    color: #734aed;
 }
 #lb_desc code {
     font-size: 0.9em;
     font-family: monospace;
     padding: 0px 2px;
-    background-color: rgb(10, 96, 122);
-    color: #15fff3;
+    background-color: rgb(55, 10, 122);
+    color: #8a15ff;
 }
 #lb_title {
     font-weight: bold;
     margin: 0;
     padding: 0;
-    color: rgb(229, 243, 193);
+    color: rgb(193, 227, 243);
 }
 #lb_tags {
     display: flex;
@@ -283,12 +283,12 @@ body {
     padding: 2px 5px;
     border-width: 1px;
     border-style: solid;
-    color: rgb(147, 230, 224);
-    border-color: rgb(81, 169, 180);
+    color: rgb(208, 147, 230);
+    border-color: rgb(119, 81, 180);
     background: linear-gradient(
         180deg,
-        rgb(5, 112, 85) 0%,
-        rgb(9, 61, 104) 100%
+        rgb(60, 5, 112) 0%,
+        rgb(104, 9, 55) 100%
     );
     font-family: "Segoe UI Semilight",Tahoma,sans-serif;
 }
@@ -314,17 +314,17 @@ body {
     z-index: 1;
     cursor: pointer;
 
-    color: rgb(127, 211, 194);
+    color: rgb(172, 127, 211);
     background: linear-gradient(
         180deg,
-        rgba(1, 53, 73, 0.7) 0%,
-        rgba(27, 75, 72, 0.7) 80%,
-        rgba(20, 100, 95, 0.7) 100%
+        rgba(73, 1, 71, 0.7) 0%,
+        rgba(75, 27, 67, 0.7) 80%,
+        rgba(100, 20, 55, 0.7) 100%
     );
     backdrop-filter: brightness(60%);
-    border: 1px solid rgb(0, 113, 121);
+    border: 1px solid rgb(61, 0, 121);
     border-radius: 10px;
-    box-shadow: inset 0px 0px 5px rgba(100, 128, 131, 0.8);
+    box-shadow: inset 0px 0px 5px rgba(115, 100, 131, 0.8);
 
     min-width: var(--nav-width);
     max-width: var(--nav-width);
@@ -339,13 +339,13 @@ body {
 .lb-nav:hover, .lb-nav.lb-pressed {
     backdrop-filter: brightness(50%);
     transition: 0.1s;
-    color: rgb(0, 255, 191);
-    border-color: rgb(0, 155, 142);
+    color: rgb(170, 0, 255);
+    border-color: rgb(75, 0, 155);
     background: linear-gradient(
         180deg,
-        rgba(0, 95, 133, 0.7) 0%,
-        rgba(48, 134, 129, 0.7) 80%,
-        rgba(32, 163, 154, 0.7) 100%
+        rgba(73, 1, 71, 0.7) 0%,
+        rgba(75, 27, 67, 0.7) 80%,
+        rgba(100, 20, 55, 0.7) 100%
     );
 }
 .lb-nav:disabled {
@@ -386,8 +386,8 @@ body {
         right: 0%;
         background: linear-gradient(
             90deg,
-            rgba(0, 0, 0, 0) 0%,
-            rgba(40, 255, 244, 0.3) 100%
+            rgba(145, 0, 189, 0.3) 0%,
+            rgba(105, 12, 83, 0.3) 100%
         );
     }
     #lb_prev {
@@ -395,8 +395,8 @@ body {
         left: 0%;
         background: linear-gradient(
             270deg,
-            rgba(0, 0, 0, 0) 0%,
-            rgba(40, 255, 244, 0.3) 100%
+            rgba(145, 0, 189, 0.3) 0%,
+            rgba(105, 12, 83, 0.3) 100%
         );
     }
 }
@@ -414,7 +414,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    color: rgb(121, 215, 228);
+    color: rgb(185, 121, 228);
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
@@ -441,8 +441,8 @@ gallery-grid img:not(.g-gridCellImage) {
     border: 1px dashed gray;
     height: 50px;
     font-family: "Segoe UI Semilight",Tahoma,sans-serif;
-    border: 1px solid rgb(0, 136, 118);
-    color: rgb(123, 255, 237);
+    border: 1px solid rgb(95, 0, 136);
+    color: rgb(204, 123, 255);
 }
 .g-grid:empty:before {
     color: white;
@@ -470,7 +470,7 @@ gallery-grid img:not(.g-gridCellImage) {
     margin: 6px;
     transition: all 0.5s !important;
     display: flex;
-    border: 2px solid #4CB9AD;
+    border: 2px solid #734aed;
     border-radius: 20px;
 }
 .g-gridCellImage {
@@ -497,7 +497,7 @@ gallery-grid img:not(.g-gridCellImage) {
     left: 0%;
     order: 3;
     border-radius: 15px;
-    box-shadow: inset 0px 0px 20px rgb(7, 255, 243);
+    box-shadow: inset 0px 0px 20px rgb(131, 7, 255);
 }
 .g-gridCellEffect, .g-image {
     transition: 0.5s ease !important;
@@ -508,7 +508,7 @@ gallery-grid img:not(.g-gridCellImage) {
 }
 .g-gridCell:hover .g-gridCellEffect {
     transition: 0s ease !important;
-    box-shadow: inset 0px 0px 20px #4CB9AD, inset 0px -5px 25px #12ffe3;
+    box-shadow: inset 0px 0px 20px #704cb9, inset 0px -5px 25px #7912ff;
 }
 .g-disabled img {
     opacity: 1 !important;
@@ -529,11 +529,11 @@ gallery-grid img:not(.g-gridCellImage) {
     font-family: "Segoe UI Semilight",Tahoma,sans-serif;
 
     border-radius: 10px;
-    border: 1px solid #4CB9AD;
+    border: 1px solid #734aed;
     background: linear-gradient(
         180deg,
-        rgba(0, 52, 73, 0.9) 0%,
-        rgba(1, 32, 30, 0.9) 100%
+        rgba(145, 0, 189, 0.3) 0%,
+        rgba(105, 12, 83, 0.3) 100%
     );
 
     overflow: hidden;
@@ -552,8 +552,8 @@ gallery-grid img:not(.g-gridCellImage) {
 }
 .g-gridCellCaption code {
     font-size: 0.9em;
-    background-color: rgb(10, 96, 122);
-    color: #15fff3;
+    background-color: rgb(55, 10, 122);
+    color: #7e15ff;
 }
 .g-gridCellCaption.g-smallScreen {
     display: none;
@@ -569,10 +569,10 @@ gallery-grid img:not(.g-gridCellImage) {
     justify-content: center;
     align-items: center;
 
-    color: #15fff3;
+    color: #8a15ff;
     border-radius: 20px;
     box-sizing: border-box;
-    background: rgba(0, 88, 104, 0.363);
+    background: rgba(52, 0, 104, 0.363);
 
     width: 100%;
     height: 100%;
@@ -678,19 +678,19 @@ gallery-grid img:not(.g-gridCellImage) {
     gap: 5px;
     margin: 10px;
     font-family: "Segoe UI Semilight",Tahoma,sans-serif;
-    color: rgb(0, 230, 218);
+    color: rgb(107, 0, 230);
     order: 300;
 }
 .g-pageNavButton {
     margin: 0;
     cursor: pointer;
     border-radius: 100%;
-    border: 1px solid green;
-    color: rgb(0, 230, 218);
+    border: 1px solid blueviolet;
+    color: rgb(123, 0, 230);
     background: linear-gradient(
         180deg,
-        rgba(0, 156, 177, 0.767) 0%,
-        rgba(0, 44, 41, 0.7) 100%
+        rgba(145, 0, 189, 0.3) 0%,
+        rgba(105, 12, 83, 0.3) 100%
     );
 }
 .g-pageNavButton:disabled {
@@ -705,8 +705,8 @@ gallery-grid img:not(.g-gridCellImage) {
 .g-pageNavButton:hover:not(:disabled) {
     background: linear-gradient(
         180deg,
-        rgba(0, 156, 177, 0.9) 0%,
-        rgba(0, 44, 41, 0.9) 100%
+        rgba(145, 0, 189, 0.3) 0%,
+        rgba(105, 12, 83, 0.3) 100%
     );
 }
 .g-pageNavPrev:before {
@@ -738,8 +738,8 @@ gallery-grid img:not(.g-gridCellImage) {
     align-items: center;
     font-family: "Segoe UI Semilight",Tahoma,sans-serif;
     font-size: 0.9em;
-    color: cyan;
-    accent-color: rgb(33, 216, 161);
+    color: blueviolet;
+    accent-color: rgb(94, 0, 209);
 }
 .g-sifter span:not(.g-sifterName) {
     margin: 0px 5px;
@@ -748,7 +748,7 @@ gallery-grid img:not(.g-gridCellImage) {
     display: inline-block;
     text-transform: uppercase;
     margin-right: 5px;
-    color: rgb(0, 202, 209);
+    color: rgb(94, 0, 209);
 }
 .g-inputs {
     display: flex;
