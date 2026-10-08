@@ -7,7 +7,7 @@
 */
 
 /* User variables */
-var stylePath = "/public/css/gallery-grid.css"; // The path to the gallery grid stylesheet
+var stylePath = "/css/gallery-grid.css"; // The path to the gallery grid stylesheet
 var smallScreenWidth = 600; // The width the widget considers to be a small screen (mobile)
 var disableShortcuts = false; // Whether or not keyboard shortcuts are enabled
 
