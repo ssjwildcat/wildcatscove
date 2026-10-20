@@ -21,8 +21,8 @@
       <button class="ocbutton" onclick="opensection('abt')">About</button>
       <button class="ocbutton" onclick="opensection('relation')">Relationships</button>
       <button class="ocbutton" onclick="opensection('extra')">Trivia & Extras</button>
+      <button class="ocbutton" onclick="opensection('credit')">Credits</button>
       <button class="ocbutton"><a href="/ocs/fandom/moondancer/gallery">Gallery</a></button>
-      <button class="ocbutton"><a href="https://unsplash.com/photos/green-grass-field-during-sunset-RMhSxIevdDE">Header Credit</a></button>
     </div>
 
     <h1>Moon-Dancer</h1>
@@ -30,6 +30,9 @@
     <div id="abt" class="section">
 
         <div class="characterprofile">
+
+            <img src="/public/img/overlay/oblivion.png" class="overlay">
+
             <div class="charactermain-image" style="background-image: url('https://f2.toyhou.se/file/f2-toyhou-se/images/117154608_ICO28bMVXMINgQs.png')"></div>
             <table>
                 <tr>
@@ -47,10 +50,10 @@
                     <td>Birthday</td>
                     <td>14th of Last Seed</td>
                 </tr>
-                <td>
-                    <tr>Birthsign</tr>
-                    <tr>The Lord</tr>
-                </td>
+                <tr>
+                    <td>Birthsign</td>
+                    <td>The Lord</td>
+                </tr>
                 <tr>
                     <td>Species</td>
                     <td>Khajiit - Cathay</td>
@@ -72,7 +75,12 @@
                     <td>Hero of Kvatch</td>
                 </tr>
                 <tr>
-                    <th colspan="2"> </th>
+                    <th colspan="2"> 
+                        <div class="stamps-oc">
+                            <img width="135px" src="/graphics/blinkies/themoon.gif">
+                            <img src="/graphics/stamps/cyrodiil.png">
+                        </div>
+                    </th>
                 </tr>
             </table>
         </div>
@@ -147,6 +155,19 @@
         <a href="/ocs">All OCs</a>
         <a href="/ocs/fandom">Fandom</a>
         <a href="https://artfight.net/character/6011175.moon-dancer-tes">Attack on Artfight!</a>
+
+        <div class="photo-container">
+            <img src="https://images.unsplash.com/photo-1606289756161-3afa9281d171?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D">
+        </div>
+
+        <div class="photo-container">
+            <img src="https://images.unsplash.com/photo-1766860161932-85bd7be708ba?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D">
+        </div>
+
+        <div class="photo-container">
+            <img src="https://images.unsplash.com/photo-1615092296061-e2ccfeb2f3d6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D">
+        </div>
+
     </div>
 
 </body>
@@ -208,3 +229,15 @@ window.onload = function () {
   document.getElementById(sectionName).style.display = "block";
 }
 </script>
+
+<!--CREDITS
+
+Base Layout edited from: https://44x50.neocities.org/
+Header: https://unsplash.com/photos/green-grass-field-during-sunset-RMhSxIevdDE
+Sidebar Photo 1: https://unsplash.com/photos/silhouette-of-trees-during-sunset-Q7A-cwB4UE0
+Sidebar Photo 2: https://unsplash.com/photos/golden-sunbeams-shine-through-a-grassy-field-_aNyrBGVf60
+Sidebar Photo 3: https://unsplash.com/photos/wildfire-burning-across-hillside-at-dusk-kbTp7dBzHyY
+Moon Blinkie: https://jansuta.neocities.org/graphics
+Cyrodiil Stamp: https://replica004.tumblr.com/post/165048797934
+
+-->
