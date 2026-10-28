@@ -65,7 +65,7 @@ function headerHTML() {
 
       <div class="sidebar-segment">
       <h3>Last Update</h4>
-      <p>10/08/2026: Minor stuff I couldn't fit yesterday, namely updating the gallery pages on the Cosmotalia side of the site!</p>
+      <p>10/27/2026: Today <a href="/ocs/fandom/moondancer">Moon-Dancer</a> gets her overhaul along with some odds 'n ends here and there!</p>
       <a href="/changelog">All Updates</a>
       </div>
 

@@ -119,6 +119,13 @@ html, body
                 font-weight: 100;
             }
 
+            details {
+                border: solid 1px #734aed;
+                padding: 10px;
+                margin: 5px;
+                background-color: #362b46;
+            }
+
 
             /* Thanks to LetoLeGaosaure on Pillowfort for pointing this out! */
             h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
@@ -634,3 +641,9 @@ html, body
     }
     
 }
+
+/*Question Indent*/
+
+    .questionp {
+        text-indent: 50px;
+    }
