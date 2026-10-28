@@ -34,6 +34,7 @@ function headerHTML() {
 
         <div class="header-content">
           <div class="header-nav">
+          <span class="frutiger-aero-button small"><a href="/index">Home</a></span>
           <span class="frutiger-aero-button small"><a href="/about">About</a></span>
           <span class="frutiger-aero-button small"><a href="/graphics">Graphics</a></span>
           <span class="frutiger-aero-button small"><a href="/writing">Writing</a></span>
