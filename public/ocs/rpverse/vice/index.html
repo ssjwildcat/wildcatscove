@@ -21,8 +21,8 @@
       <button class="ocbutton" onclick="opensection('abt')">About</button>
       <button class="ocbutton" onclick="opensection('relation')">Relationships</button>
       <button class="ocbutton" onclick="opensection('extra')">Trivia & Extras</button>
-      <button class="ocbutton"><a href="/ocs/cosmotalia/obsidian/gallery">Gallery</a></button>
-      <button class="ocbutton"><a href="https://unsplash.com/photos/seashore-during-golden-hour-KMn4VEeEPR8">Header Credit</a></button>
+      <button class="ocbutton" onclick="opensection('credit')">Credits</button>
+      <button class="ocbutton"><a href="/ocs/rpverse/vice/gallery">Gallery</a></button>
     </div>
 
     <h1>Vice</h1>
@@ -30,6 +30,9 @@
     <div id="abt" class="section">
 
         <div class="characterprofile">
+
+            <img src="/img/overlay/conch.png" class="overlay">
+
             <div class="charactermain-image" style="background-image: url('https://f2.toyhou.se/file/f2-toyhou-se/images/15870976_ZRRx81nWOYbM8R1.png')"></div>
             <table>
                 <tr>
@@ -64,7 +67,16 @@
                     <td><a href="https://sporkspagel.tumblr.com/">sporkspagel</a></td>
                 </tr>
                 <tr>
-                    <th colspan="2"> </th>
+                    <th colspan="2"> 
+                        <img width="135px" src="/graphics/blinkies/beachluvr.gif">
+                        <img width="135px" src="/graphics/blinkies/margaritaville.gif">
+                        <img width="135px" src="/graphics/blinkies/summertime.gif">
+                        <img width="135px" src="/graphics/blinkies/vaporwave.gif">
+                        <img src="/graphics/stamps/summercore2.png">
+                        <img src="/graphics/stamps/tropical.png">
+                        <img src="/graphics/stamps/tropic_signs.png">
+                        <img src="/graphics/stamps/internetsurfing.gif">
+                    </th>
                 </tr>
             </table>
         </div>
@@ -136,6 +148,25 @@
         </div>
         </div>
 
+        <div id="credit" class="section" style="display: none;">
+            <div id="contents">
+                <h2>Credits</h2>
+                <p><a href="https://unsplash.com/photos/seashore-during-golden-hour-KMn4VEeEPR8">Header</a></p>
+                <p><a href="https://honeyymoony.tumblr.com/post/722829373642883072">Profile Icon</a></p>
+                <p><a href="https://unsplash.com/photos/wooden-fence-towards-the-ocean-N6y7e4lTijg">Sidebar Photo 1</a></p>
+                <p><a href="https://unsplash.com/photos/a-shelf-with-bottles-of-alcohol-on-it-yQtV3AxfOW0">Sidebar Photo 2</a></p>
+                <p><a href="https://unsplash.com/photos/blue-and-brown-wooden-lifeguard-tower-on-blue-sea-during-daytime-EhwGd9W0ZBM">Sidebar Photo 3</a></p>
+                <p><a href="https://www.deviantart.com/hyprmobile/gallery/all">Beach Luvr Blinkie</a></p>
+                <p><a href="https://web.archive.org/web/20090805180926/http://geocities.com/acrblinkies/index.html">Margaritaville Blinkie</a></p>
+                <p><a href="https://web.archive.org/web/20021207101023/http://www.celestialforums.com:80/yoink.html">Summertime Blinkie</a></p>
+                <p><a href="https://www.deviantart.com/ix-c-999/art/Vaporwave---2-1050820356">Vaporwave Blinkie</a></p>
+                <p><a href="https://www.deviantart.com/crvyons/art/Summercore-Aesthetic%7CStamp-1236041164">Summercore Stamp</a></p>
+                <p><a href="https://www.tumblr.com/valstia/775257073834459136/blue-stamps-my-brother-suggested-i-do-blue-so">Tropical Island Stamp</a></p>
+                <p><a href="https://www.tumblr.com/phaea/811108026764443648/userbars-and-stamps">Tropical Signposts Stamp</a></p>
+                <p><a href="https://www.deviantart.com/thecandycoating/art/internet-surfing-|-Stamp-621536293">Internet Surfing Stamp</a></p>
+            </div>
+        </div>
+
     </div>
 </main>
 
@@ -145,6 +176,19 @@
         <a href="/ocs">All OCs</a>
         <a href="/ocs/rpverse">RPVerse</a>
         <a href="https://artfight.net/character/424990.vice-lovell">Attack on Artfight!</a>
+
+        <div class="photo-container">
+            <img src="https://images.unsplash.com/photo-1510608658071-c48be9a076f6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D">
+        </div>
+
+        <div class="photo-container">
+            <img src="https://images.unsplash.com/photo-1665399321244-8f4a6ddeef99?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D">
+        </div>
+
+        <div class="photo-container">
+            <img src="https://images.unsplash.com/photo-1596402297531-7f3f0575ad81?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D">
+        </div>
+
     </div>
 
 </body>
@@ -206,3 +250,22 @@ window.onload = function () {
   document.getElementById(sectionName).style.display = "block";
 }
 </script>
+
+<!--CREDITS
+
+Base Layout edited from: https://44x50.neocities.org/
+Header: https://unsplash.com/photos/seashore-during-golden-hour-KMn4VEeEPR8
+Profile Icon: https://honeyymoony.tumblr.com/post/722829373642883072
+Sidebar Photo 1: https://unsplash.com/photos/wooden-fence-towards-the-ocean-N6y7e4lTijg
+Sidebar Photo 2: https://unsplash.com/photos/a-shelf-with-bottles-of-alcohol-on-it-yQtV3AxfOW0
+Sidebar Photo 3: https://unsplash.com/photos/blue-and-brown-wooden-lifeguard-tower-on-blue-sea-during-daytime-EhwGd9W0ZBM
+Beach Luvr Blinkie: https://www.deviantart.com/hyprmobile/gallery/all
+Margaritaville Blinkie: https://web.archive.org/web/20090805180926/http://geocities.com/acrblinkies/index.html
+Summertime Blinkie: https://web.archive.org/web/20021207101023/http://www.celestialforums.com:80/yoink.html
+Vaporwave Blinkie: https://www.deviantart.com/ix-c-999/art/Vaporwave---2-1050820356
+Summercore Stamp: https://www.deviantart.com/crvyons/art/Summercore-Aesthetic%7CStamp-1236041164
+Tropical Island Stamp: https://www.tumblr.com/valstia/775257073834459136/blue-stamps-my-brother-suggested-i-do-blue-so
+Tropical Signposts Stamp: https://www.tumblr.com/phaea/811108026764443648/userbars-and-stamps
+Internet Surfing Stamp: https://www.deviantart.com/thecandycoating/art/internet-surfing-|-Stamp-621536293
+
+-->
