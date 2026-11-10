@@ -66,7 +66,7 @@ function headerHTML() {
 
       <div class="sidebar-segment">
       <h3>Last Update</h4>
-      <p>10/31/2026: Today's overhaul is <a href="ocs/rpverse/vice">Vice</a> along with, once more, some odds and ends.</p>
+      <p>11/10/2026: Mostly odds and ends; added a couple fanlistings and edited more OC galleries.</p>
       <a href="/changelog">All Updates</a>
       </div>
 
