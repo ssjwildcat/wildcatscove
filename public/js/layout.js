@@ -66,7 +66,7 @@ function headerHTML() {
 
       <div class="sidebar-segment">
       <h3>Last Update</h4>
-      <p>11/10/2026: Mostly odds and ends; added a couple fanlistings and edited more OC galleries.</p>
+      <p>11/17/2026: Yet more odds and ends but I did add a <a href="/writing/tildeath">new fic</a> in my <a href="/writing">writing hub</a>!</a></p>
       <a href="/changelog">All Updates</a>
       </div>
 
